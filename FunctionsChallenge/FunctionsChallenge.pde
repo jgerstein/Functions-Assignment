@@ -8,9 +8,10 @@ void draw(){
   background(0);
   
   //solveQuadratic() test
-  text(solveQuadratic(6, 2, 8, true), width/2, 400);
-  text(solveQuadratic(6, 2, 8, false), width/2, 450);
+  text(solveQuadratic(9, 0, -2, true), width/2, 400);
+  text(solveQuadratic(9, 0, -2, false), width/2, 450);
 
+  projectile(width/2, 0, 5, 5, .3, 30);
 }
 
 float solveQuadratic(float a, float b, float c, boolean plus){
@@ -31,5 +32,16 @@ float solveQuadratic(float a, float b, float c, boolean plus){
   }
   
   return x;
+  
+}
+
+void projectile(float locX, float locY, float velX, float velY, float grav, float diam){
+  
+  velY += grav;
+  
+  locX += velX;
+  locY += velY;
+  
+  ellipse(locX, locY, diam, diam);
   
 }
