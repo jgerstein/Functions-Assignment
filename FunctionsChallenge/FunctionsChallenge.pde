@@ -2,8 +2,6 @@ float velX = 5;
 float velY = 5;
 float x = 2;
 float y = 0;
-float grav = .3;
-float diam = 50; 
 
 
 void setup(){
@@ -15,18 +13,11 @@ void setup(){
 void draw(){
   background(0);
   
-  velY = velY + grav;
-  
-  x = x + velX;
-  y = y + velY;
-  
-  ellipse(x, y, diam, diam);
-  
   //solveQuadratic() test
   text(solveQuadratic(9, 0, -2, true), width/2, 400);
   text(solveQuadratic(9, 0, -2, false), width/2, 450);
 
-  //projectile(width/2, 0, 5, 5, .3, 30);
+  projectile(.3, 30);
 }
 
 float solveQuadratic(float a, float b, float c, boolean plus){
@@ -50,13 +41,13 @@ float solveQuadratic(float a, float b, float c, boolean plus){
   
 }
 
-void projectile(float locX, float locY, float velX, float velY, float grav, float diam){
+void projectile(float grav, float diam){
   
   velY += grav;
   
-  locX += velX;
-  locY += velY;
+  x += velX;
+  y += velY;
   
-  ellipse(locX, locY, diam, diam);
+  ellipse(x, y, diam, diam);
   
 }
