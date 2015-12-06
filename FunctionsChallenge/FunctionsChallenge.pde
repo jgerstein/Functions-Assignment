@@ -18,7 +18,7 @@ void draw(){
 
   //projectile(.3, 30);
   
-  shapes(width/2, height/2, 0, 255);
+  shapes(60, 80, 0, 255);
 }
 
 float solveQuadratic(float a, float b, float c, boolean plus){
@@ -64,6 +64,11 @@ void shapes(float x, float y, int typeOfShape, color c){
     triangle(x - 15, y + 5, x + 15, y + 40, x + 44, y + 5);
   }
   
+  //draw a moon
+  if (typeOfShape == 1){
+    noStroke();
+    
+  }
 }
 
 /********************
