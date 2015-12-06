@@ -3,7 +3,6 @@ float velY = 5;
 float x = 2;
 float y = 0;
 
-
 void setup(){
   size(800, 600);
   textAlign(CENTER);
@@ -17,7 +16,9 @@ void draw(){
   text(solveQuadratic(9, 0, -2, true), width/2, 400);
   text(solveQuadratic(9, 0, -2, false), width/2, 450);
 
-  projectile(.3, 30);
+  //projectile(.3, 30);
+  
+  shapes(width/2, height/2, 0, 255);
 }
 
 float solveQuadratic(float a, float b, float c, boolean plus){
@@ -52,11 +53,22 @@ void projectile(float grav, float diam){
   
 }
 
+void shapes(float x, float y, int typeOfShape, color c){
+ 
+  //draw a heart
+  if(typeOfShape == 0){
+    noStroke();
+    fill(c);
+    ellipse(x, y, 30, 30);
+    ellipse(x + 29, y, 30, 30);
+    triangle(x - 15, y + 5, x + 15, y + 40, x + 44, y + 5);
+  }
+  
+}
 
 /********************
 
 REMINDER: Third function: draw new shapes. Star, Moon, Heart, Flower, etc. Use numbers or words to assign them for the parameters.
-Other parameters: float x, float y, float typeOfShape, color c //etc.  
-
+Other parameters: float x, float y, int typeOfShape, color c //etc.  
 
 *******************/
