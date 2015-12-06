@@ -51,3 +51,12 @@ void projectile(float grav, float diam){
   ellipse(x, y, diam, diam);
   
 }
+
+
+/********************
+
+REMINDER: Third function: draw new shapes. Star, Moon, Heart, Flower, etc. Use numbers or words to assign them for the parameters.
+Other parameters: float x, float y, float typeOfShape, color c //etc.  
+
+
+*******************/
