@@ -2,6 +2,7 @@
 Math - Trigonometric Function Solver
 
 ## Examples:
+```
 For a value of PI/2, the program will display: 
 Value: 1.5707964
 Sine: 1.0
@@ -11,7 +12,7 @@ Arc Sine: NaN
 
 Arc Cosine: NaN
 Arc Tangent: 1.0038848
-
+```
 
 
 ## Description:
@@ -42,9 +43,11 @@ The array allows multiple values to be returned and stored so the draw function 
 
 ##Other notes:
   An array is used to store the results of each trig function. Below is a breakdown of which array corresponds to which trig function.
+```
     result[0] = sin(value);
     result[1] = cos(value);
     result[2] = tan(value);
     result[3] = acos(value);
     result[4] = asin(value);
     result[5] = atan(value);
+```
