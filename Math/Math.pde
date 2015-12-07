@@ -1,4 +1,4 @@
-float value = PI/4; //set value of trig function to calculate in radians
+float value = PI/2; //set value of trig function to calculate in radians
 
 
 void setup(){
