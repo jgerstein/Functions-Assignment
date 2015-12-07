@@ -1,25 +1,19 @@
-PVector vector1, vector2;
-//declare variables for length and width of vector to make code reusable
-
-int x1 = 1;
-int y1 = 1;
-int x2 = 1;
-int y2 = 1;
+float vo = 5;
+float a = 2;
+float d = 2;
+float vf;
 
 void setup(){
- textAlign(CENTER, BOTTOM);
- vector1 = new PVector(x1, y1);
- vector2 = new PVector(x2, y2);
-
+  background(0);
+  size(800,600);
 }
 
 void draw(){
-   
- text("Vector 1: " + vector1.x1, width/2, 50);
- text("Vector 2: " + vector1.x1, width/2, 50);
+ vf = kinematic(vo, a, d);
+ println(vf);
 }
 
-float[] vector(float vector1, vector2){
-    
-  
+float kinematic(float vo, float a, float d){
+  float vf = sqrt(sq(vo) + 2*a*d);
+  return vf;
 }
