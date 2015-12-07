@@ -1,7 +1,6 @@
 //name variables
 PImage art;
 float A;
-float V;
 float a;
 
 //set canvas and load images
@@ -19,11 +18,7 @@ void draw(){
   //calculate area of a circle
   A = areaOfCircle();
   text("Area of circle =" + A,300,100);
-  
-  //calculate volume of a sphere
-  V = volumeOfSphere();
-  text("Volume of sphere =" + V,300, 200);
-  
+
   //calculate acceleration
   a = kinematicAcceleration();
   text("Acceleration =" + a,300, 300);
@@ -36,11 +31,6 @@ void draw(){
     return A;
   }
   
-  float volumeOfSphere(){
-    float r= 6;
-    float V= 4/3*PI*r*r*r;
-    return V;
-  }
   
   float kinematicAcceleration(){
     float v0 = 0;
