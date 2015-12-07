@@ -16,9 +16,9 @@ Solves for a final velocity given the acceleration, initial velocity, and time.
 solveFinalVelocity(a, v0, t);
 
 ##Parameters: 
-a, float: acceleration of the object
-v0, float: initial velocity of the object
-t, float: time taken for velocity change
+a, float: acceleration of the object  
+v0, float: initial velocity of the object  
+t, float: time taken for velocity change  
 
 ##Returns:
 float

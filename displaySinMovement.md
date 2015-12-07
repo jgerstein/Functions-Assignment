@@ -21,7 +21,7 @@ displaySinMovement();
 None
 
 ##Returns:
-void
+void  
 
 ##Other notes:
 None

@@ -16,9 +16,9 @@ Solves for the real roots of the quadratic equation given the coefficients of x^
 quadraticEquation(a, b, c);
 
 ##Parameters: 
-a, float: first coefficient
-b, float: second coefficient
-c, float: third coefficient
+a, float: first coefficient  
+b, float: second coefficient  
+c, float: third coefficient  
 
 ##Returns:
 float[]
