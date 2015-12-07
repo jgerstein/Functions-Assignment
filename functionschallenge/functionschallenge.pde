@@ -1,13 +1,13 @@
 float a, b, c;
 void setup() {
-}
-
-void draw() {
   a = 1;
   b = 5;
   c = 4;
   println(quadratic1(a, b, c));
   println(quadratic2(a, b, c));
+}
+
+void draw() {
 }
 
 float quadratic1(float a, float b, float c) {
