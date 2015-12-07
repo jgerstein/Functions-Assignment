@@ -1,5 +1,5 @@
 # Name:
-Jonathan Shih
+Visual - The Wanderer with color
 
 ## Examples:
 N/A
