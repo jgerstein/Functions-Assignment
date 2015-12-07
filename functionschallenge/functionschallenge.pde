@@ -3,6 +3,7 @@ float a, b, c;
 
 void setup() {
   //Set input values
+  // 0 = ax^2 + bx + c
   a = 1;
   b = 5;
   c = 4;
