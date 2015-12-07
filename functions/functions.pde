@@ -8,9 +8,8 @@ void draw() {
 
   float[] quadraticResult = quadraticEquation(10, 1, 100);
   println(quadraticResult[0] + " || " + quadraticResult[1]); //print out solutions
-
   
-  doSomethingVisual(); //call the function and display stuff
+  displaySinMovement(); //call the function and display stuff
 }
 
 //physics function
@@ -27,6 +26,16 @@ float[] quadraticEquation(float a, float b, float c){
   return result; //return the array
 }
 
-void doSomethingVisual() {
+void displaySinMovement() {
+  float angleadd = radians(2)*frameCount; //for each framecount add more to the existing angle
+  float angle[] = new float[3]; //declare global variable
+  angle[0] = 0 + angleadd; //assign variables
+  angle[1] = 80 + angleadd;
+  angle[2] = 150 + angleadd;
   
+
+  background(0);
+  for(int i = 0; i < angle.length; i++) {
+    ellipse(width/2, abs(80*sin(angle[i])), 10, 10); //display ellipse
+  }
 }
