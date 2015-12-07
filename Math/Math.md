@@ -1,5 +1,5 @@
 # Name: 
-Jonathan Shih
+Math - Trigonometric Function Solver
 
 ## Examples:
 For a value of PI/2, the program will display: 
