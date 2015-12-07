@@ -2,7 +2,9 @@
 Jonathan Shih
 
 ## Examples:
-Insert examples here.
+For a value of PI/2, the program will display: 
+[Example1]: https://github.com/jshih123/FunctionsChallenge/blob/master/Math/Example1.PNG "Example1"
+
 
 ## Description:
 Insert description here
