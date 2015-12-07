@@ -1,4 +1,4 @@
-float tbase = 100;
+float tbase = 100; //declare variable values, plug in top length, height, and bottom length
 float hght = 100;
 float bbase = 700;
 
@@ -9,7 +9,7 @@ void setup(){
 void draw(){
   background(0);
   println(findTrapezoidArea(tbase, hght, bbase));
-  drawTrapezoid(tbase, hght, bbase);  
+  drawTrapezoid(tbase, hght, bbase);  //draw trapezoid 
  }
 
 float findTrapezoidArea(float tbase, float hght, float bbase){
@@ -22,9 +22,7 @@ float findTrapezoidArea(float tbase, float hght, float bbase){
 
 void drawTrapezoid(float tbase, float hght, float bbase){
   stroke(random(250), random(250), random(250));
-  textSize(50);
-  text("", 0, 0);
-  line(width/2 - tbase/2, height/2 - hght/2, width/2 + tbase/2, height/2 - hght/2);
+  line(width/2 - tbase/2, height/2 - hght/2, width/2 + tbase/2, height/2 - hght/2); //draw lines of trapezoid
   line(width/2 - bbase/2, height/2 + hght/2, width/2 + bbase/2, height/2 + hght/2);
   line(width/2 + tbase/2, height/2 - hght/2,width/2 + bbase/2, height/2 + hght/2);
   line(width/2 - bbase/2, height/2 + hght/2, width/2 - tbase/2, height/2 - hght/2); 
