@@ -13,7 +13,7 @@ quadraticEquation(2, -10, -13);
 Solves for the real roots of the quadratic equation given the coefficients of x^2, x, and c (constant).
 
 ## Syntax:
-quadraticEquation(a, b, c)
+quadraticEquation(a, b, c);
 
 ##Parameters: 
 a, float: first coefficient
@@ -21,7 +21,6 @@ b, float: second coefficient
 c, float: third coefficient
 
 ##Returns:
-What type of data does it return?
 float[]
 
 ##Other notes:

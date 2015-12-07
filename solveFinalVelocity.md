@@ -13,7 +13,7 @@ solveFinalVelocity(6,2,1);
 Solves for a final velocity given the acceleration, initial velocity, and time.
 
 ## Syntax:
-solveFinalVelocity(a, v0, t)
+solveFinalVelocity(a, v0, t);
 
 ##Parameters: 
 a, float: acceleration of the object

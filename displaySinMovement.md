@@ -5,6 +5,7 @@ displaySinMovement()
 ```
 size(100,100); //set canvas size
 //do other stuff here, like draw squares
+fill(255); //set background to white
 ellipseMode(CORNER); //set ellipse mode to center
 displaySinMovement(); //outputs three circles moving in a sine wave on the top of the screen.
 
