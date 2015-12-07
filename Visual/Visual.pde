@@ -15,7 +15,7 @@ void draw(){
 }
 
 void wanderer(){ //reuse code from wanderer
-  backround(0);
+  background(0);
   acc = PVector.random2D();  
   acc.mult(0.9);
   
