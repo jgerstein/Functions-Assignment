@@ -2,10 +2,11 @@
 Jonathan Shih
 
 ## Examples:
-Insert examples here.
+N/A
 
 ## Description:
-Insert description here
+The program uses the Wanderer code as a function.
+Color was added based on the location of the ball.
 
 ## Syntax:
 ```
@@ -58,10 +59,10 @@ void wanderer(){ //reuse code from wanderer
 ```
 
 ##Parameters: 
-Name and describe parameters here
+N/A
 
 ##Returns:
-What type of data does it return?
+The wanderer function returns the location of the ball, which is executed in the draw function.
 
 ##Other notes:
-Anything else?
+N/A
