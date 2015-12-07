@@ -2,14 +2,14 @@
 Math - Trigonometric Function Solver
 
 ## Examples:
-For a value of PI/2, the program will display: 
-Value: 1.5707964
-Sine: 1.0
-Cosine: -4.371139E-8
-Tangent: -2.2877332E7
-Arc Sine: NaN
-Arc Cosine: NaN
-Arc Tangent: 1.0038848
+>For a value of PI/2, the program will display: 
+>Value: 1.5707964
+>Sine: 1.0
+>Cosine: -4.371139E-8
+>Tangent: -2.2877332E7
+>Arc Sine: NaN
+>Arc Cosine: NaN
+>Arc Tangent: 1.0038848
 
 
 
@@ -17,34 +17,7 @@ Arc Tangent: 1.0038848
 The function takes a value and displays the six basic trigonometric functions calculated using the value.
 
 ## Syntax:
-```
-  float value = PI/2; //set value of trig function to calculate in radians
-  
-  
-  void setup(){
-    textAlign(CENTER, BOTTOM);
-    size(800,600);
-  
-  }
-  
-  void draw(){
-    //set background to black
-    background(0);
-  
-    //store result of trig function
-    float[] result = trig(value);
-    
-    //Display trig functions
-    text("Value: " + value, width/2, 50);
-    text("Sine: " + result[0], width/2, 100);
-    text("Cosine: " + result[1], width/2, 150);
-    text("Tangent: " + result[2], width/2, 200);
-    text("Arc Sine: " + result[3], width/2, 250);
-    text("Arc Cosine: " + result[4], width/2, 300);
-    text("Arc Tangent: " + result[5], width/2, 350);  
-    
-  }
-  
+```processing
   float[] trig(float value){
     float[] result = new float[6];
     result[0] = sin(value);
@@ -54,7 +27,7 @@ The function takes a value and displays the six basic trigonometric functions ca
     result[4] = asin(value);
     result[5] = atan(value);
     return result;
-}
+  }
 ```
 
 ##Parameters: 
@@ -67,4 +40,10 @@ Returns all six basic trigonometric functions as a value stored in the array "re
 The array allows multiple values to be returned and stored so the draw function can print more than one value using one function.
 
 ##Other notes:
-N/a
+  An array is used to store the results of each trig function. Below is a breakdown of which array corresponds to which trig function.
+    result[0] = sin(value);
+    result[1] = cos(value);
+    result[2] = tan(value);
+    result[3] = acos(value);
+    result[4] = asin(value);
+    result[5] = atan(value);
