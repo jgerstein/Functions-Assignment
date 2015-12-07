@@ -15,22 +15,23 @@ void draw(){
   float[] result = trig(value);
   
   //Display trig functions
-  text("Sine: " + result[0], width/2, 50);
-  text("Cosine: " + result[1], width/2, 100);
-  text("Tangent: " + result[2], width/2, 150);
-  text("Arc Sine: " + result[3], width/2, 200);
-  text("Arc Cosine: " + result[4], width/2, 250);
-  text("Arc Tangent: " + result[5], width/2, 300);  
+  text("Value: " + value, width/2, 50);
+  text("Sine: " + result[0], width/2, 100);
+  text("Cosine: " + result[1], width/2, 150);
+  text("Tangent: " + result[2], width/2, 200);
+  text("Arc Sine: " + result[3], width/2, 250);
+  text("Arc Cosine: " + result[4], width/2, 300);
+  text("Arc Tangent: " + result[5], width/2, 350);  
   
 }
 
-float[] trig(float a){
+float[] trig(float value){
   float[] result = new float[6];
-  result[0] = sin(a);
-  result[1] = cos(a);
-  result[2] = tan(a);
-  result[3] = acos(a);
-  result[4] = asin(a);
-  result[5] = atan(a);
+  result[0] = sin(value);
+  result[1] = cos(value);
+  result[2] = tan(value);
+  result[3] = acos(value);
+  result[4] = asin(value);
+  result[5] = atan(value);
   return result;
 }
