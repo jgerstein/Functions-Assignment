@@ -23,13 +23,13 @@ void setup(){
 
 void draw(){
   for(int i = 0; i < num; i++){
-    ballPhysics(i, ball_pos[i], ball_vel[i]);
+    ballPhysics(ball_pos[i], ball_vel[i]);
     ball_width[i] = ballMath(ball_pos[i]);
     ballDraw(ball_pos[i], ball_width[i]);
   }
 }
 
-void ballPhysics(int index, PVector pos, PVector vel){
+void ballPhysics(PVector pos, PVector vel){
   //add a small amount of gravity
   vel.y += 0.98;
 
@@ -59,7 +59,12 @@ void ballPhysics(int index, PVector pos, PVector vel){
 }
 
 float ballMath(PVector pos){
-  return radius*2*sin(pos.y);
+  float wid = radius*3*sin(pos.y);
+  
+  if(wid < radius)
+    wid = radius;
+
+  return wid;
 }
 
 void ballDraw(PVector pos, float ball_width){
