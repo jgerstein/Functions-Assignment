@@ -1,19 +1,26 @@
 # Name: 
+float volumeOfSphere()
 
 ## Examples:
-Insert examples here.
+ float volumeOfSphere(){
+    float r= 6;
+    float V= 4/3*PI*r*r*r;
+    return V;
+  }
 
 ## Description:
-Insert description here
+Enter radius, and calculated volume of the sphere will be displayed
 
 ## Syntax:
-Demonstrate syntax here
+  float volumeOfSphere(){
+    float r= ?;
+    float V= 4/3*PI*r*r*r;
+    return V;
+  }
 
 ##Parameters: 
-Name and describe parameters here
+? = radius to enter ; V is calculated volume
 
 ##Returns:
-What type of data does it return?
+Volume (V) is displayed
 
-##Other notes:
-Anything else?
