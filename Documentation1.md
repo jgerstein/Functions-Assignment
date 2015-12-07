@@ -1,19 +1,25 @@
 # Name: 
+solveFinalVelocity()
 
 ## Examples:
-Insert examples here.
+solveFinalVelocity(3,5,3);
+//returns 14.0
+solveFinalVelocity(6,2,1);
+//returns 8.0
 
 ## Description:
-Insert description here
+Solves for a final velocity given the acceleration, initial velocity, and time.
 
 ## Syntax:
-Demonstrate syntax here
+solveFinalVelocity(a, v0, t)
 
 ##Parameters: 
-Name and describe parameters here
+a, float: acceleration of the object
+v0, float: initial velocity of the object
+t, float: time taken for velocity change
 
 ##Returns:
-What type of data does it return?
+float
 
 ##Other notes:
-Anything else?
+None

@@ -1,19 +1,26 @@
 # Name: 
+quadraticEquation()
 
 ## Examples:
-Insert examples here.
+quadraticEquation(1, -5, -6);
+//returns 6.0 || -1.0
+quadraticEquation(2, -10, -13);
+//returns 6.070714 || -1.0707142
 
 ## Description:
-Insert description here
+Solves for the real roots of the quadratic equation given the coefficients of x^2, x, and c (constant).
 
 ## Syntax:
-Demonstrate syntax here
+quadraticEquation(a, b, c)
 
 ##Parameters: 
-Name and describe parameters here
+a, float: first coefficient
+b, float: second coefficient
+c, float: third coefficient
 
 ##Returns:
 What type of data does it return?
+float[]
 
 ##Other notes:
-Anything else?
+Will return NaN if numbers are invalid.
