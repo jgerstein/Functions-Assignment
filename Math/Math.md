@@ -2,14 +2,15 @@
 Math - Trigonometric Function Solver
 
 ## Examples:
->For a value of PI/2, the program will display: 
->Value: 1.5707964
->Sine: 1.0
->Cosine: -4.371139E-8
->Tangent: -2.2877332E7
->Arc Sine: NaN
->Arc Cosine: NaN
->Arc Tangent: 1.0038848
+For a value of PI/2, the program will display: 
+Value: 1.5707964
+Sine: 1.0
+Cosine: -4.371139E-8
+Tangent: -2.2877332E7
+Arc Sine: NaN
+
+Arc Cosine: NaN
+Arc Tangent: 1.0038848
 
 
 
