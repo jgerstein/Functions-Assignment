@@ -4,12 +4,10 @@ float value = PI/2; //set value of trig function to calculate in radians
 void setup(){
   textAlign(CENTER, BOTTOM);
   size(800,600);
-
+  background(0);
 }
 
 void draw(){
-  //set background to black
-  background(0);
 
   //store result of trig function
   float[] result = trig(value);
