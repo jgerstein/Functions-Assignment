@@ -2,10 +2,12 @@
 solveFinalVelocity()
 
 ## Examples:
+```
 solveFinalVelocity(3,5,3);
 //returns 14.0
 solveFinalVelocity(6,2,1);
 //returns 8.0
+```
 
 ## Description:
 Solves for a final velocity given the acceleration, initial velocity, and time.

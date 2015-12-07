@@ -35,7 +35,7 @@ void displaySinMovement() {
   
 
   background(0);
-  for(int i = 0; i < angle.length; i++) {
+  for(int i = 0; i < angle.length; i++) { //for each ellipse
     ellipse(width/2, abs(80*sin(angle[i])), 10, 10); //display ellipse
   }
 }
