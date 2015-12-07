@@ -1,19 +1,32 @@
-# Name: 
+# Name: Displacement
 
 ## Examples:
-Insert examples here.
+float Displacement(float vi, float t, float a){
+  float d = (vi*t)+(0.5*a*sq(t));
+  return d;
+}
+
+void draw(){
+ float d = Displacement(8, 2, -2);
+ rect(d, height/2, 50, 50);
+}
 
 ## Description:
-Insert description here
+Calculates the displacement of a particle given its intial speed, acceleration, and time interval
 
 ## Syntax:
-Demonstrate syntax here
+float Displacement(float vi, float t, float a){
+  float d = (vi*t)+(0.5*a*sq(t));
+  return d;
+}
 
 ##Parameters: 
-Name and describe parameters here
+vi = initial speed of particle
+t = time interval over which particle moves
+a = acceleration of particle
 
 ##Returns:
-What type of data does it return?
+float d
 
 ##Other notes:
-Anything else?
+None
