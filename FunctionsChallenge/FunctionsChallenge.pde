@@ -19,12 +19,15 @@ void draw() {
   text(solveQuadratic(10, 3, 5, true), width/2, 500);  
   text(solveQuadratic(10, 3, 5, false), width/2, 550);
 
+  println(solveQuadratic(1, 2, -3, true));
+  
   //projectile test
   projectile(.3, 30);
 
   //shapes test
-  shapes(60, 80, 0, 255);
-  shapes(500, 500, 1, 200);
+  shapes(60, 80, 0, 255);  //heart
+  shapes(mouseX, mouseY, 1, 200);  //star
+  shapes(400, 100, 2, 100);  //flower
 }
 
 
@@ -85,6 +88,25 @@ void shapes(float x, float y, int typeOfShape, color c) {
     noStroke();
     triangle(x - 15, y + 20, x, y, x + 15, y + 20);
     triangle(x - 15, y + 5, x, y + 25, x + 15, y + 5);
+  }
+  
+  //draw a flower
+  if(typeOfShape == 2){
+    float sz = 40;
+    noStroke();
+    
+    ellipse(x, y, sz, sz);
+    
+    ellipse(x + 30, y, sz/2, sz/2);
+    ellipse(x - 30, y, sz/2, sz/2);
+    
+    ellipse(x, y + 30, sz/2, sz/2);
+    ellipse(x, y - 30, sz/2, sz/2);
+
+    ellipse(x + 20, y + 20, sz/2, sz/2);
+    ellipse(x + 20, y - 20, sz/2, sz/2);
+    ellipse(x - 20, y + 20, sz/2, sz/2);
+    ellipse(x - 20, y - 20, sz/2, sz/2);
   }
 }
 
