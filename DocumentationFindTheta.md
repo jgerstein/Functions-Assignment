@@ -44,7 +44,7 @@ float findWorkAngle(float rx,float ry,float fx,float fy){
 }
 
 ##Parameters: 
-x and y components of force and displacement
+x and y components of force and displacement. findWorkAngle(x component of displacement,y component of displacement, x component of force, y component of force)
 
 ##Returns:
 The float value of theta. 
