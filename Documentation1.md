@@ -23,5 +23,5 @@ Enter radius, and the area of the circle is calculated.
 A is calculated area
 
 ##Returns:
-Area displayed in text
+Area (A) displayed in text
 
