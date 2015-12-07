@@ -9,23 +9,7 @@ The program uses the Wanderer code as a function.
 Color was added based on the location of the ball.
 
 ## Syntax:
-```
-PVector loc, vel, acc;
-PImage bg, wanderer;
-
-void setup(){
-    //set size of canvas
-  size(800, 600);
-  //initialize variables
-  loc = new PVector(width/2, height/2);
-  vel = new PVector(0,0);
-  colorMode(HSB, 800, 600, 100);
-}
-
-void draw(){
-  wanderer();
-}
-
+```processing
 void wanderer(){ //reuse code from wanderer
   background(0);
   acc = PVector.random2D();  
