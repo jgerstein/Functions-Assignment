@@ -9,15 +9,15 @@ void setup(){
 
 void draw(){
   background(0);
+  MovingCircle();
   float d = Displacement(8, 2, -2);
   float m = Slope(400, 398, 1000, 300);
+  fill(random(255), random(255), random(255));
   rect(d, height/2, 50, 50);
   ellipse(m, m, 50, 50);
   println(d);
   println(m);
-  MovingCircle();
-  
-}
+ }
 
 float Displacement(float vi, float t, float a){
   float d = (vi*t)+(0.5*a*sq(t));
@@ -31,7 +31,6 @@ float Slope(float x2, float x1, float y2, float y1){
 
 void MovingCircle(){
   ellipse(loc.x, loc.y, 45, 45);
-  fill(255, 0, 0);
   loc.add(vel);
   if (loc.x > width){
     vel.x = -vel.x;
