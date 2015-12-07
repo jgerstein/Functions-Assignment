@@ -14,7 +14,7 @@ Arc Tangent: 1.0038848
 
 
 ## Description:
-Insert description here
+The function takes a value and displays the six basic trigonometric functions calculated using the value.
 
 ## Syntax:
 ```
@@ -67,4 +67,4 @@ Returns all six basic trigonometric functions as a value stored in the array "re
 The array allows multiple values to be returned and stored so the draw function can print more than one value using one function.
 
 ##Other notes:
-Anything else?
+N/a
