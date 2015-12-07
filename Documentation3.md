@@ -1,19 +1,49 @@
 # Name: 
+Moving Circle
 
 ## Examples:
-Insert examples here.
+PVector loc;
+PVector vel;
+
+void setup(){
+  loc= new PVector(width/2, height/2);
+  vel = new PVector(5, 5);
+}
+
+void draw(){
+MovingCircle();
+}
+
 
 ## Description:
-Insert description here
+Creates ellipse that bounces around the screen
 
 ## Syntax:
-Demonstrate syntax here
+void MovingCircle(){
+  ellipse(loc.x, loc.y, 45, 45);
+  loc.add(vel);
+  if (loc.x > width){
+    vel.x = -vel.x;
+  }
+  if(loc.y > height){
+    vel.y = -vel.y;
+  }
+  if (loc.x < 0){
+    vel.x = -vel.x;
+  }
+  if (loc.y < 0){
+    vel.y = -vel.y;
+  }
+}
 
 ##Parameters: 
-Name and describe parameters here
+loc.x = x position
+loc.y = y position
+vel.x = x component of velocity
+vel.y = y component of velocity
 
 ##Returns:
-What type of data does it return?
+Returns no data
 
 ##Other notes:
-Anything else?
+None
