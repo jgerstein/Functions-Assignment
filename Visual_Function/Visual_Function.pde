@@ -17,6 +17,7 @@ void draw() {
 
 
 void Pretzel(float a,float b) {
+  noStroke();
   ellipse(x,y,a,b);
   x=x+vx;
   y=y+vy;
