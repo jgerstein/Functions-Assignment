@@ -1,19 +1,39 @@
-# Name: 
-
+# Name: finding velocity 
 ## Examples:
-Insert examples here.
+distance= 21 m
+time = 12 seconds
+velocity= d/t
+velocity= 1.75 m/s
 
 ## Description:
-Insert description here
+this function (V) finds velocity 
 
 ## Syntax:
-Demonstrate syntax here
+float d=21;
+float t=12;
+
+void setup() {
+  size(800,600);
+}
+
+void draw() {
+  println(V(d,t));
+}
+
+float V (float d,float t){
+  float V;
+  V=d/t;
+  return(V);
+}
 
 ##Parameters: 
-Name and describe parameters here
+println(V(d,t)); this will allow the value to be displayed in the line with the variable d and t. 
+float V (float d,float t)- parameters of the velocity function
+
 
 ##Returns:
-What type of data does it return?
+  return(V);
+this makes the function return the value of V or d/t. 
 
 ##Other notes:
 Anything else?
