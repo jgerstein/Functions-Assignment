@@ -20,7 +20,7 @@ void drawTrapezoid(float tbase, float hght, float bbase)
 All float variables, need to put into drawTrapezoid(top base, height, bottom base).
 
 ##Returns:
-Draws the trapezoid.
+void ,Draws the trapezoid.
 
 ##Other notes:
 If viewing a smaller trapezoid, adjust the size of the window to see it more clearly. 
