@@ -23,7 +23,7 @@ float g = 9.8;
 float w = 0;
 
 //define and declare the coefficients of restitution and kinetic friction and the kinetic friction force
-float coRest = 0.75;
+float coRest = 0.9;
 float coKFric = 0.05;
 float kFric = 0;
 
