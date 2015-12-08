@@ -11,7 +11,7 @@ void setup(){
 }
 
 void draw(){
-MovingCircle();
+  MovingCircle();
 }
 
 
