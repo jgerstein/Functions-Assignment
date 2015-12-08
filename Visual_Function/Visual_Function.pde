@@ -24,7 +24,18 @@ void Pretzel(float a,float b) {
     vy=-vy;
     fill(random(255), random(255), random(255));
   }
- 
+    if (x>=width) {
+    vx=-vx;
+    fill(random(255), random(255), random(255));
+  }
+  if (y<=0) {
+    vy=-vy;
+    fill(random(255), random(255), random(255));
+  }
+  if (x<=0) {
+    vx=-vx;
+    fill(random(255), random(255), random(255));
+  }
 
  
 }
