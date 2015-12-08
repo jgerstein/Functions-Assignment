@@ -5,7 +5,7 @@ void setup() {
 
 void draw() {
   background(0);
-  craftA2DimensionalSphere(20);
+  craftA2DimensionalSphere(diameter);
 }
 
 
@@ -16,7 +16,8 @@ void craftA2DimensionalSphere(float diam) {
 }
 
 
-void diameter(float d, float r){
-  d = r * 2;
+void diameter(float r){
+  float d = r * 2;
   text(d,mouseX + 20,mouseY - 20);
+  return d;
 }
