@@ -48,10 +48,10 @@ float solveQuadratic(float a, float b, float c, boolean plus) {
 }
 
 
-float solveWork(float force, float diam, float theta) {
+float solveWork(float force, float dist, float theta) {
   float work;
   float angle = cos(theta);
-  work = force*diam*angle;
+  work = force*dist*angle;
   return work;
 }
 
