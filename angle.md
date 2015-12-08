@@ -1,19 +1,21 @@
-# Name: array gravity balls
+# Name: angle
 
 ## Examples:
-Insert examples here.
+println(atan(50));
 
 ## Description:
-Insert description here
+gives back angle between bottom of screen and line in radians
 
 ## Syntax:
-Demonstrate syntax here
+atan(value)
+
 
 ##Parameters: 
-angle - radians, x & y coordinates - float
+angle - float: angle in radians
+x & y coordinates - float: position of line
 
 ##Returns:
 float
 
 ##Other notes:
-Anything else?
+make sure while inputting value from y to subtract from the height because of the way the coordinate system works
