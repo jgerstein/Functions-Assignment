@@ -1,41 +1,20 @@
-# Name: Area Function
+# Name: Area()
 
 ## Examples:
-float b= 100;
-float h= 50;
+float b = 100;
+float h =50;
+Area(100,50);
 
 ## Description:
 With a given base and height, the function Area provides just that, the area. 
 
 ## Syntax:
+Area(b,h)
 
-float b = 100;
-float h =50;
-
-void setup() {
-  size(800, 600);
-}
-
-void draw() {
-
-  println(Area(b, h));
-}
-
-float Area(float b, float h) {
-  float Area;
-  Area= b* h;
-  return(Area);
-}
 ##Parameters: 
-<<<<<<< HEAD:math function doc
-println(Area(b, h)); -will print the value on the line
-=======
-println(Area(b, h)); -prints the value in the line
->>>>>>> origin/master:Documentation1.md
+b   - float b; base of figure
 
-float Area(float b, float h)- parameters of the function  
-
-
+h   - float h; height of figure
 
 ##Returns:
   return(Area); - will give the value of area  
