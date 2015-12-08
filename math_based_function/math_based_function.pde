@@ -1,15 +1,13 @@
 
-void setup(){
-  size(800,600);    //size of background
-}
-
 void draw(){
-  calculateQuadraticFunction(1,6,9);  
+  println(quadratic(1,6,9));  
 }
 
-void calculateQuadraticFunction(float a, float b, float c){    //declare function and floats
-
-  
+float []quadratic(float a, float b, float c){    //declare function and variables
+  float [] x = new float [2];
+  x[0]=(-b + sqrt(sq(b)- 4*a*c))/(2*a);      
+  x[1]=(-b - sqrt(sq(b)- 4*a*c))/(2*a);
+  return x;
 }
 
 
