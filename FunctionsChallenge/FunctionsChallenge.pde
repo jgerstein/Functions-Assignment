@@ -2,18 +2,17 @@ void setup() {
 }
 
 void draw() {
-  findPermutation(3,8);
+  println(findPermutation(8, 3));
 }
 
-int fact(int n) {
-  for (int i=n-1; i>=1; i--) {
-    n=n*i;
+float findPermutation(float data, float places) {
+  places=data-places;
+  for (float i=places-1; i>=1; i--) {
+    places=places*i;
   }
-  int factorial =
-  return 
-}
-
-int findPermutation(int places, int data) {
-  int result= factorial(places)/factorial(places-data);
+  for (float i=data-1; i>=1; i--) {
+    data=data*i;
+  }
+  float result= data/places;
   return result;
 }
