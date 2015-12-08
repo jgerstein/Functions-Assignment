@@ -37,14 +37,14 @@ String calculateHyp(PVector var) {
 Draws a random triangle
 
 ## Syntax:
-drawATriangle();
+drawATriangle()
 
 
 ##Parameters: 
 none
 
 ##Returns:
-String
+String (will write a value in text)
 
 ##Other notes:
 None
