@@ -1,0 +1,21 @@
+# Name: V()
+## Examples:
+distance= 21 m
+time = 12 seconds
+v(21,12);
+
+## Description:
+this function (V) finds velocity with a given distance and time
+
+## Syntax:
+V(d,t);
+
+##Parameters: 
+d --- float d meaning distance
+t --- float t meaning time
+##Returns:
+  return(V);
+this makes the function return the value of V or d/t. 
+
+##Other notes:
+Anything else?

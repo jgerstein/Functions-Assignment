@@ -1,0 +1,25 @@
+# Name: Area()
+
+## Examples:
+float b = 100;
+float h =50;
+Area(100,50);
+
+## Description:
+With a given base and height, the function Area provides just that, the area. 
+
+## Syntax:
+Area(b,h)
+
+##Parameters: 
+b   - float b; base of figure
+
+h   - float h; height of figure
+
+##Returns:
+  return(Area); - will give the value of area  
+  
+##Other notes:
+Anything else?
+
+
