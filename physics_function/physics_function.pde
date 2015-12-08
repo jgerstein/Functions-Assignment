@@ -1,6 +1,3 @@
-void setup(){
-  
-}
 
 void draw(){
   println(calculateForce(5,10));
