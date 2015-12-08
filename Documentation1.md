@@ -13,13 +13,13 @@ Enter radius, and the area of the circle is calculated.
 
 ## Syntax:
   float areaOfCircle(){
-    float r= ?;
+    float r= value;
     float A= PI*sq(r);
     return A;
   }
 
 ##Parameters: 
-? is radius ;
+value is radius ;
 A is calculated area
 
 ##Returns:
