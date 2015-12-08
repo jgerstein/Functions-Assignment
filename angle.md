@@ -10,10 +10,10 @@ Insert description here
 Demonstrate syntax here
 
 ##Parameters: 
-Name and describe parameters here
+angle - radians, x & y coordinates - float
 
 ##Returns:
-What type of data does it return?
+float
 
 ##Other notes:
 Anything else?
