@@ -23,7 +23,7 @@ float g = 9.8;
 float w = 0;
 
 //define and declare the coefficients of restitution and kinetic friction and the kinetic friction force
-float coRest = 0.9;
+float coRest = 0.75;
 float coKFric = 0.05;
 float kFric = 0;
 
@@ -78,6 +78,7 @@ void keyPressed() {
     p1.set(-100, -100);
     p2.set(-100, -100);
     vel.set(0,0);
+    w = 0;
   }
 }
 
@@ -124,7 +125,8 @@ void draw() {
       }
       
       //set the acceleration based on gravity and the net force equation (normal force, gravity, and friction)
-      acc.set(g*time*sin(angle(p1.x,p1.y,p2.x,p2.y))*cos(angle(p1.x,p1.y,p2.x,p2.y))-vel.x*coKFric*time*g*sq(cos(angle(p1.x,p1.y,p2.x,p2.y)))/abs(vel.x),g*time*sq(sin(angle(p1.x,p1.y,p2.x,p2.y)))-vel.y*coKFric*time*g*cos(angle(p1.x,p1.y,p2.x,p2.y))*sin(angle(p1.x,p1.y,p2.x,p2.y))/abs(vel.y));
+      acc.set(sin(angle(p1.x,p1.y,p2.x,p2.y))*cos(angle(p1.x,p1.y,p2.x,p2.y))-vel.x*coKFric*sq(cos(angle(p1.x,p1.y,p2.x,p2.y)))/abs(vel.x),sq(sin(angle(p1.x,p1.y,p2.x,p2.y)))-vel.y*coKFric*cos(angle(p1.x,p1.y,p2.x,p2.y))*sin(angle(p1.x,p1.y,p2.x,p2.y))/abs(vel.y));
+      acc.mult(g*time);
 
       //bounce ball off the ground
       if (pos.y-diam*cos(angle(p1.x,p1.y,p2.x,p2.y))/2+diam/2 >= height) {
