@@ -24,4 +24,4 @@ The program returns the final velocity, or the float vf. It is calculated using 
 
 
 ##Other notes:
-N/a
+N/A
