@@ -11,10 +11,21 @@ float slope(float r1x, float r1y, float r2x, float r2y) {
 }
 
 //visual
+void donut(float x, float y, float diam){
+  fill(random(255),random(255),random(255));
+  ellipse(x,y, diam, diam);
+  fill(0);
+  ellipse(x,y, diam/3,diam/3);
+}
 
-
+void setup(){
+  background(0);
+  size(800,600);
+  noStroke();
+}
 
 void draw() {
   println(force(10, 5));
   println(slope(14, 15, 12, 16));
+  donut(width/2,height/2,200);
 }
