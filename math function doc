@@ -27,7 +27,11 @@ float Area(float b, float h) {
   return(Area);
 }
 ##Parameters: 
+<<<<<<< HEAD:math function doc
 println(Area(b, h)); -will print the value on the line
+=======
+println(Area(b, h)); -prints the value in the line
+>>>>>>> origin/master:Documentation1.md
 
 float Area(float b, float h)- parameters of the function  
 
