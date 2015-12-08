@@ -1,19 +1,20 @@
-# Name: 
+Name: 
+findKelvin (from Celsius)
 
-## Examples:
-Insert examples here.
+Examples:
+kelvin(25);
 
-## Description:
-Insert description here
+Description:
+finds the Kelvin (adds 273) for the value of Celsius inputed. 
 
-## Syntax:
-Demonstrate syntax here
+Syntax:
+kelvin(celsius);
 
-##Parameters: 
-Name and describe parameters here
+Parameters: 
+celcius	int or float, the input value of celsius
 
-##Returns:
-What type of data does it return?
+Returns:
+kelvin
 
-##Other notes:
+Other notes:
 Anything else?
