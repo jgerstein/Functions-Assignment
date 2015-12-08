@@ -3,7 +3,7 @@ Visual - The Wanderer with color
 
 ## Examples:
 ```processing
-      wanderer();
+wanderer();
 ```
 
 ## Description:
