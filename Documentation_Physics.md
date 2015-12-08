@@ -1,12 +1,6 @@
 # Name: 
 drawSomeBalls();
 ## Examples:
-None
-
-## Description:
-Draws some balls according to gravity
-
-## Syntax:
 ```
 void drawSomeBalls() {
   for (int i=0; i < count; i++) { 
@@ -44,6 +38,12 @@ void drawSomeBalls() {
   }
 }
 ```
+
+## Description:
+Draws some balls according to gravity
+
+## Syntax:
+drawSomeBalls()
 
 ##Parameters: 
 None
