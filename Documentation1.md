@@ -1,19 +1,24 @@
-# Name: 
+# Name:
+quadratic1()
+quadratic2()
 
 ## Examples:
-Insert examples here.
+quadratic1(1, 5, 4);
+quadratic2(1, 5, 4);
 
 ## Description:
-Insert description here
+Returns all real roots of a quadratic equation with the form ax^2 + bx + c.
 
 ## Syntax:
-Demonstrate syntax here
+quadratic1(a, b, c);
+quadratic2(a, b, c);
 
 ##Parameters: 
-Name and describe parameters here
+a	int, or float: coefficient of x^2 in equation
+b	int, or float: coefficient of x in equation
+c	int, or float: constant in equation
 
 ##Returns:
-What type of data does it return?
+float or int
 
 ##Other notes:
-Anything else?

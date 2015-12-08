@@ -32,7 +32,7 @@ void draw() {
   background(0);
   
   //Draw object 1
-  fill(67, 255, 255, 200);
+  fill(67, 255, 255, 150);
   noStroke();
   ellipse(x1, y, diam, diam);
   
@@ -43,7 +43,7 @@ void draw() {
   x1 += v1;
   
   //Draw object 2
-  fill(125, 20, 200, 200);
+  fill(125, 20, 200, 150);
   ellipse(x2, y, diam, diam);
   fill(0);
   text("m2", x2, y);
