@@ -18,5 +18,13 @@ void draw() {
 
 void Pretzel(float a,float b) {
   ellipse(x,y,a,b);
+  x=x+vx;
+  y=y+vy;
+  if (y>=height) {
+    vy=-vy;
+    fill(random(255), random(255), random(255));
+  }
+ 
+
  
 }
