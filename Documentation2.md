@@ -1,26 +1,33 @@
 # Name: 
-float volumeOfSphere()
+kinematicAcceleration()
 
 ## Examples:
- float volumeOfSphere(){
-    float r= 6;
-    float V= 4/3*PI*r*r*r;
-    return V;
-  }
+float kinematicAcceleration(){ 
+  float v0 = 0; 
+   float vf = 5; 
+   float t = 10; 
+   float a = (vf - v0)/t; 
+   return a; 
+ }  
 
 ## Description:
-Enter radius, and calculated volume of the sphere will be displayed
+Enter intitial and final velocities and time, and calculated acceleration will be displayed
 
 ## Syntax:
-  float volumeOfSphere(){
-    float r= ?;
-    float V= 4/3*PI*r*r*r;
-    return V;
-  }
+float kinematicAcceleration(){ 
+   float v0 = value1; 
+   float vf = value2; 
+   float t = value3; 
+   float a = (vf - v0)/t; 
+   return a; 
+ } 
 
 ##Parameters: 
-? = radius to enter ; V is calculated volume
+value1 is initial velocity (v0);
+value2 is final velovity (vf);
+value3 is time (t);
+a is calculated acceleration;
 
 ##Returns:
-Volume (V) is displayed
+Acceleration (a) is displayed
 
