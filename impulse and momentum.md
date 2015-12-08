@@ -1,19 +1,23 @@
-# Name: impulse and momentum
+# Name: momentum
 
 ## Examples:
-Insert examples here.
+println(momentum); 
 
 ## Description:
-Insert description here
+gives momentum when values are put in
 
 ## Syntax:
-Demonstrate syntax here
+p = sqrt(sq(px(value)) + sq(py(value))
 
 ##Parameters: 
-Name and describe parameters here
+mass - float: mass of objects in kg
+velx0, velxf, vely0, velyf - float: velocity of object in x and y direction, final and initial
+px - float: x momentum
+py - float: y momentum
+p - float: total momentum
 
 ##Returns:
-What type of data does it return?
+float
 
 ##Other notes:
 Anything else?
