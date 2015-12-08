@@ -5,6 +5,7 @@ void setup() {
   smooth();
   textAlign(CENTER);
   ellipseMode(CENTER);
+  colorMode(HSB);
 }
 
 void draw() {
@@ -13,8 +14,9 @@ void draw() {
   println(electricForce());
   stroke(255);
   noFill();
-  ellipse(width/2, height/2, 100, 100);
-  text(electricForce(), width/2, height/2);
+  ellipse(width/2 - 4, height/2, 110, 110);
+  text("Electrostatic Force", width/2, height/2);
+  text(electricForce(), width/2, height/2 + 20);
   forceStress();
 }
 
@@ -35,4 +37,6 @@ float electricForce() {
 }
 
 void forceStress() {
+  ellipse(mouseX, mouseY, 20, 20);
+  ellipse(width - mouseX, height - mouseY, 20, 20);
 }
