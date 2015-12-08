@@ -11,10 +11,7 @@ void draw(){
 Calculates the displacement of a particle given its initial speed, acceleration, and time interval
 
 ## Syntax:
-float Displacement(float vi, float t, float a){
-  float d = (vi*t)+(0.5*a*sq(t));
-  return d;
-}
+float Displacement(float vi, float t, float a)
 
 ##Parameters: 
 vi = initial speed of particle
