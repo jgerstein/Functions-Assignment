@@ -16,21 +16,6 @@ if (trigger == false) {
     background(0);
   }
 }
-
-String drawATriangle() {
-  loc = new PVector (50,50);
-  var = new PVector (random(550), random(400));
-  fill(random(255), random(255), random(255));
-  triangle(loc.x, loc.y, loc.x, loc.y+var.y, loc.x+var.x, loc.y+var.y);
-  trigger = true;
-  return calculateHyp(var);
-}
-
-String calculateHyp(PVector var) {
-  float hyp = sqrt(sq(var.x) + sq(var.y));
-  String s = "The length of the hypotenuse is " + hyp;
-  return s;
-}
 ```
 
 ## Description:
