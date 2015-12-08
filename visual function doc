@@ -1,19 +1,60 @@
 # Name: 
+visual_function.pde
+drawrandomCircles();
 
 ## Examples:
 Insert examples here.
 
 ## Description:
-Insert description here
-
+this function will draw random circles of different sizes depending on the mouse location. 
+it will also print the diameters in the line. 
 ## Syntax:
-Demonstrate syntax here
+float diam;
+
+void setup() {
+
+  size(800, 600);
+  background(80);
+}
+
+void draw() {
+  if (mouseX>width/2) {
+    diam=random(0, 30);
+  }
+  if (mouseX<width/2) {
+    diam=random(10, 200);
+  }
+  if (mousePressed) {
+
+    drawrandomCircles();
+  }
+  println( diam);
+}
+
+
+float drawrandomCircles() {
+  noStroke();
+  fill(random(0, 255), random(0,0), random(0,255)); 
+  ellipse(random(0, 800), random(0, 600), diam, diam);
+  return(diam);
+}
 
 ##Parameters: 
-Name and describe parameters here
+println( diam); — will display the value in line
+fill(random(0, 255), random(0,0), random(0,255)); - makes the color varying and random
+ellipse(random(0, 800), random(0, 600), diam, diam);— makes ellipse location random and diam depends on following: 
+  if (mouseX>width/2) { 
+    diam=random(0, 30);  — if mouseX is on right of screen, diam is small 
+  }
+  if (mouseX<width/2) {
+    diam=random(10, 200); - if mouseX is on left of screen, diam is large
+  }
+if (mousePressed) {  — function only happens if mouse is pressed 
+    drawrandomCircles();
 
 ##Returns:
-What type of data does it return?
+return(diam);
+it returns the value of the random diameters
 
 ##Other notes:
 Anything else?
