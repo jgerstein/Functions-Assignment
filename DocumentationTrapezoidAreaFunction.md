@@ -3,10 +3,6 @@
 ## Examples:
 With the top base = 100, height = 100, and bottom base = 700
 
-## Description:
-Find area of trapezoid.
-
-## Syntax:
 float findTrapezoidArea(float tbase, float hght, float bbase){
   float totalbase;
   float trapezoidarea; 
@@ -16,8 +12,14 @@ float findTrapezoidArea(float tbase, float hght, float bbase){
 }
 
 
+## Description:
+Find area of trapezoid.
+
+## Syntax:
+float findTrapezoidArea(float tbase, float hght, float bbase)
+
 ##Parameters: 
-Plug in top base, height, and bottom base, findTrapezoidArea( top base, height, bottom base). 
+findTrapezoidArea(top base, height, bottom base), all float values. 
 
 ##Returns:
 What type of data does it return?
