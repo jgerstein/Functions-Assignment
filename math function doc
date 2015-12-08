@@ -27,7 +27,7 @@ float Area(float b, float h) {
   return(Area);
 }
 ##Parameters: 
-println(Area(b, h)); -provides the area of  b and h 
+println(Area(b, h)); -will print the value on the line
 
 float Area(float b, float h)- parameters of the function  
 
