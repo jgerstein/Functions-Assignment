@@ -3,7 +3,11 @@ visual_function.pde
 drawrandomCircles();
 
 ## Examples:
-Insert examples here.
+float drawrandomCircles() {
+  noStroke();
+  fill(random(0, 255), random(0,0), random(0,255)); 
+  ellipse(random(0, 800), random(0, 600), diam, diam);
+  return(diam);
 
 ## Description:
 this function will draw random circles of different sizes depending on the mouse location. 
