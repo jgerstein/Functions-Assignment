@@ -1,20 +1,16 @@
+
+
 void setup() {
+ 
 }
 
 
 
 void draw() {
-  
-  
-  
-  
+  println(findAccelceration(0, 500, 60));
+ 
 }
-  float findAccelceration(float velocityI,float velocityF,float time) {
-    float accelceration = (velocityF-velocityF)/time;
-    return accelceration;
-    
+float findAccelceration ( float vi, float vf, float time){
+  float accelceration = (vf-vi)/time;
+  return accelceration;
 }
-
-
-
-x=v*t -1/2at^2
