@@ -20,7 +20,7 @@ quadratic(variables)
 coefficient values in the quadratic equation ax^2+bx+c
 
 ##Returns:
-floats
+floats; numbers
 
 ##Other notes:
 incorporated the use of arrays

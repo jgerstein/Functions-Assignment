@@ -16,7 +16,7 @@ calculateForce(variables)
 values for mass and acceleration
 
 ##Returns:
-floats
+floats; numbers
 
 ##Other notes:
 
