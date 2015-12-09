@@ -12,5 +12,5 @@ float m (float mass, float velx0, float velxf, float vely0, float velyf) {
   float px = mass*velxf - mass*velx0; //x momentum
   float py = mass*velyf - mass*vely0; //y momentum
   float p = sqrt(sq(px) + sq(py)); //total momentum
-  return p; //returns momentum
+  return p; //returns momentum (kg*m/s)
 }
