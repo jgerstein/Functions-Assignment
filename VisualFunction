@@ -1,0 +1,20 @@
+# Name: bluePattern
+
+## Examples:
+bluePattern(50,50)
+bluePattern(100,100)
+
+## Description:
+Creates cool pattern starting at the location you pick.
+
+## Syntax:
+bluePattern(x,y)
+
+##Parameters: 
+x is the x position and y is the y position.
+
+##Returns:
+Nothing.
+
+##Other notes:
+Anything else?
