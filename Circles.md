@@ -1,16 +1,17 @@
 # Name: Circles
 
 ## Examples:
-Insert examples here.
+circle(200,400,80);
 
 ## Description:
-Draws three circles each with individual x position variables.
-If the mouse is pressed changes the fill of the circles to random colors and changes each ball's x position within the canvas.
+Draws a circle with x and y position variables and diameter of 80. The first two parameters set the location, and the third sets the diameter of the ellipse.
 ## Syntax:
-Demonstrate syntax here
+ellipse(a, b, c)
 
 ##Parameters: 
-Name and describe parameters here
+a	float: x-coordinate of the ellipse
+b	float: y-coordinate of the ellipse
+c	float: diameter of the ellipse
 
 ##Returns:
 Void
