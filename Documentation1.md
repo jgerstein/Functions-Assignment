@@ -1,19 +1,22 @@
 # Name: 
-
+size
 ## Examples:
-Insert examples here.
-
+void draw(){
+ ellipse(x, y, size(), size());    //The comet
+}
+ float size() {
+  return(x%angle);    //Allows comet to flay around in a sin wave.
+}
 ## Description:
-Insert description here
+Makes a flunctuating sin curve
 
 ## Syntax:
-Demonstrate syntax here
+size();
 
 ##Parameters: 
-Name and describe parameters here
+value			float
 
 ##Returns:
-What type of data does it return?
+float
 
-##Other notes:
-Anything else?
+
