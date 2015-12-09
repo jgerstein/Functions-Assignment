@@ -1,0 +1,19 @@
+# Name: velocityFinal
+
+## Examples:
+velocityFinal(2,3,4)
+
+## Description:
+Gives you the velocity final using the initial velocity,time, and acceleration.
+
+## Syntax:
+velocityFinal(vo,a,t)
+
+##Parameters: 
+vo is the initial velocity, a is the acceleration, and t is the time. 
+
+##Returns:
+It returns a float value.
+
+##Other notes:
+Anything else?
