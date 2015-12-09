@@ -1,8 +1,13 @@
 Name: 
+
 findKelvin (from Celsius)
 
 Examples:
-kelvin(25);
+
+float findKelvin (float celsius){
+  float kelvin= celsius+273;
+  return kelvin;
+}
 
 Description:
 finds the Kelvin (adds 273) for the value of Celsius inputed. 
