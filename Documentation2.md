@@ -1,19 +1,27 @@
 # Name: 
-
+p(pythagorean) theorem
 ## Examples:
-Insert examples here.
-
+use the sides of a right triangle to find the length of the hypotenuse.
+a=3
+b=5
+a^2+b^2=c^2
+c=sqrt(a^2+b^2)
+c=sqrt(9+25)
+c=5.8309
 ## Description:
-Insert description here
+pythagorean theorem 
 
 ## Syntax:
-Demonstrate syntax here
+a=length of one of the sides
+b=length of other side 
+both sides meet at a 90 degree angle
 
 ##Parameters: 
-Name and describe parameters here
+a=any number
+b=any nu,ber
 
 ##Returns:
-What type of data does it return?
+The length of the hypotnenuse.
 
 ##Other notes:
 Anything else?
