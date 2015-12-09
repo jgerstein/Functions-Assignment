@@ -1,19 +1,32 @@
-# Name: 
+# Name: randomCircle
 
 ## Examples:
-Insert examples here.
+void setup() {
+  size(800, 600);
+}
+
+
+void draw() {
+  frameRate(2.5);
+  background(0);
+  randomCircle();
+}
+
+void randomCircle() {
+  fill(random(255), random(255), random(255));
+  float diam = random(5, 80);
+  ellipse(random(width), random(height), diam, diam);
+}
 
 ## Description:
-Insert description here
+Draws a circle of a random color at a random location on the canvas. The circle has a random diameter between 5 and 80.
 
 ## Syntax:
-Demonstrate syntax here
+randomCircle()
 
 ##Parameters: 
-Name and describe parameters here
+none
 
 ##Returns:
-What type of data does it return?
+void
 
-##Other notes:
-Anything else?
