@@ -1,19 +1,21 @@
-# Name: 
+# Name: Physics Force Function
 
 ## Examples:
 Insert examples here.
 
 ## Description:
-Insert description here
+float calculateForce(float mass, float acceleration){
+  return (mass * acceleration);
+}
 
 ## Syntax:
-Demonstrate syntax here
+calculateForce(variables)
 
 ##Parameters: 
-Name and describe parameters here
+values for mass and acceleration
 
 ##Returns:
-What type of data does it return?
+floats
 
 ##Other notes:
-Anything else?
+
