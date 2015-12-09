@@ -1,19 +1,32 @@
-# Name: 
+# Name: KineticEnergy
 
 ## Examples:
-Insert examples here.
+Find the kinetic energy of a 100 kilogram boulder flying at 10 meters per second ignoring air resistance.
+Kinetic energy= one half mass* velocity squared 
+k=m*SQ(vx)/2
+k=100*sq(10)/2
+k=10,000/2
+k=5,000
+
+Find the kinetic energy of a 100 kilogram boulder flying at that moves 10 meters.
+Kinetic energy= one half mass* velocity squared 
+k=m*SQ(vx)/2
+k=100*sq(10)/2
+k=10,000/2
+k=5,000
 
 ## Description:
-Insert description here
+Using mass and velocity/distance finds the kinetic energy through the physics equation.
 
 ## Syntax:
-Demonstrate syntax here
+A physics equation for kinetic energy.
 
 ##Parameters: 
-Name and describe parameters here
-
+m=mass
+vx=velocity/distance
+k=Kinetic Energy
 ##Returns:
-What type of data does it return?
+The kinetic energy value
 
 ##Other notes:
-Anything else?
+
