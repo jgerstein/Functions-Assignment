@@ -1,11 +1,11 @@
-# Name: 
+# Name: Circles
 
 ## Examples:
 Insert examples here.
 
 ## Description:
-Insert description here
-
+Draws three circles each with individual x position variables.
+If the mouse is pressed changes the fill of the circles to random colors and changes each ball's x position within the canvas.
 ## Syntax:
 Demonstrate syntax here
 
@@ -13,7 +13,7 @@ Demonstrate syntax here
 Name and describe parameters here
 
 ##Returns:
-What type of data does it return?
+Does not return data
 
 ##Other notes:
-Anything else?
+When using this function three variables are needed for the ellipses so they should be declared in the beginning of the code.
