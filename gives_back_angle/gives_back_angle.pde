@@ -15,5 +15,5 @@ void draw() {
 float angle (float x, float y) {
   line(0, 600, x, y); //draw line
   float a = atan(sqrt(sq(mouseY) + sq(mouseX)));
-  return a;
+  return a; //angle in radians
 }
