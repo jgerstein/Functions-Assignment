@@ -13,7 +13,7 @@ Demonstrate syntax here
 Name and describe parameters here
 
 ##Returns:
-Does not return data
+Void
 
 ##Other notes:
 When using this function three variables are needed for the ellipses so they should be declared in the beginning of the code.
