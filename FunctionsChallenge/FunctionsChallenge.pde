@@ -24,7 +24,7 @@ void draw() {
   ellipse(x, y, size(), size());    //The comet
 
   if (mousePressed) {
-    star();    //Adds stars to code, to beautify
+    twinklingstar();    //Adds stars to code, to beautify
   }
   if(keyPressed && keyCode==SHIFT){
     println(numberNonsense(6));
@@ -35,7 +35,7 @@ float size() {
   return(x%angle);    //Allows comet to flay around in a sin wave.
 }
 
-void star() {    //Adds stars!!
+void twinklingstar() {    //Adds stars!!
   image( shineBright, random(width), random(height), size(), size());
 }
 

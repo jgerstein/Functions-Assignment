@@ -1,8 +1,18 @@
 # Name: 
-
+twinklingstar
 ## Examples:
-Insert examples here.
+PImage shineBright;
 
+void setup(){
+	size(100,100);
+	}
+void draw(){
+	twinklingstar();
+}
+void twinklingstar(){
+	float sz= random(10,40);
+	image (shineBright, random(width),random(height), sz,sz);
+}
 ## Description:
 Insert description here
 
