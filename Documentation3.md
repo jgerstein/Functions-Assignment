@@ -1,19 +1,25 @@
-# Name: 
+# Name: Visual BlurAImage Function
 
 ## Examples:
-Insert examples here.
+```
+void BlurAImage(float blurintensity){
+  PImage vacation;
+  vacation = loadImage("vacation spot.jpg");
+  image(vacation,0,0,width,height);
+  filter(BLUR,blurintensity);
+```
 
 ## Description:
-Insert description here
+Allow user to change blur intensity of an image.
 
 ## Syntax:
-Demonstrate syntax here
+BlurAImage(variable);
 
 ##Parameters: 
-Name and describe parameters here
+value of intensity of blur; the larger the value, the blurrier the image is.
 
 ##Returns:
-What type of data does it return?
+float
 
 ##Other notes:
-Anything else?
+
