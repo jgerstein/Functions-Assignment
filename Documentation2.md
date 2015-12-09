@@ -1,19 +1,19 @@
 # Name: Work
 
 ## Examples:
-Insert examples here.
+work(0.23,4.5)
+work(1.43,9.81)
 
 ## Description:
-Finds the work an object does using its mass and velocity
+Finds the work an object does using its mass and velocity. The first parameter defines the mass of the object while the second paramter defines the object's velocity.
 
 ## Syntax:
-Demonstrate syntax here
+work(m,v)
 
 ##Parameters: 
-Name and describe parameters here
+m      float:mass of object
+v      float:velocity of object
 
 ##Returns:
-What type of data does it return?
+float
 
-##Other notes:
-Anything else?
