@@ -1,19 +1,25 @@
 # Name: 
+AreaOfTheCylinder
 
 ## Examples:
-Insert examples here.
+float AreaOfTheCylinder(float r, float h){  //float AreaOfTheCylinder and r and h
+  float A = (2.0)*(PI)*(r)*(h) + (2.0)*(PI)*(sq(r));  //float equation to solve for A
+  return A;  //return the solution for A
+  }
 
 ## Description:
-Insert description here
+solves the equation for the variable A, or area of the cylinder
 
 ## Syntax:
-Demonstrate syntax here
+A= 2PIrh + 2PIr^2
 
 ##Parameters: 
-Name and describe parameters here
+A = int or float: area of the cylinder
+r = int or float: radius of the cylinder
+h = int or float: height of the cylinder
 
 ##Returns:
-What type of data does it return?
+returns the value of A, or the area of the cylinder
 
 ##Other notes:
-Anything else?
+math equation
