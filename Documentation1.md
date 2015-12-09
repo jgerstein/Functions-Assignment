@@ -1,19 +1,27 @@
-# Name: 
+# Name: power()
 
 ## Examples:
-Insert examples here.
+power (x, 5, 30)
+
 
 ## Description:
-Insert description here
+Returns power when the variables force(f), velocity(v), and cosine theta(t) are input into the function. Note the order of inputting variables is f, v, then t.   
 
 ## Syntax:
-Demonstrate syntax here
+float power (float f, float v, float t) { 
+  float power= f * v * cos(t);   
+  return power;  
 
 ##Parameters: 
-Name and describe parameters here
+Float power
+Float f
+Float v
+Float t
+
+Function is a float! 
 
 ##Returns:
-What type of data does it return?
+Returns numerical data. 
 
 ##Other notes:
-Anything else?
+
