@@ -1,4 +1,4 @@
-# Name: 
+# Name: Spotlight
 
 ## Examples:
 Insert examples here.

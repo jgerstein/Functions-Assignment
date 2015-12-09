@@ -1,10 +1,10 @@
-# Name: 
+# Name: Work
 
 ## Examples:
 Insert examples here.
 
 ## Description:
-Insert description here
+Finds the work an object does using its mass and velocity
 
 ## Syntax:
 Demonstrate syntax here

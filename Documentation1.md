@@ -1,10 +1,10 @@
-# Name: 
+# Name: Quadratic Formula
 
 ## Examples:
 Insert examples here.
 
 ## Description:
-Insert description here
+
 
 ## Syntax:
 Demonstrate syntax here
