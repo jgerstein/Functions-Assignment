@@ -1,4 +1,4 @@
-//creates a fake fraction string very close to given float value
+//creates a fake fraction string very close to or exactly given float value
 String frac(float x) {
   for (int i = 1; i<1000000; i++) {
     if (abs(i*x-round(i*x))<0.000001) {
@@ -10,6 +10,12 @@ String frac(float x) {
   }
   //if we take denominator to a million and can't find something close enough
   return "no approximation with desired precision";
+}
+
+//gravitational force between two objects given positions and masses
+float grav(float m1, PVector r1, float m2, PVector r2) {
+  float d = r1.dist(r2);
+  return 0.0000000000667408*m1*m2/d;
 }
 
 
