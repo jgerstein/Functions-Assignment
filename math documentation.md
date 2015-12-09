@@ -1,5 +1,4 @@
 Name: 
-
 findKelvin (from Celsius)
 
 Examples:
@@ -22,4 +21,4 @@ Returns:
 kelvin
 
 Other notes:
-Anything else?
+

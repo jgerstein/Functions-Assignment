@@ -1,19 +1,25 @@
-# Name: 
+Name: 
+findWork
 
-## Examples:
-Insert examples here.
+Examples:
 
-## Description:
-Insert description here
+float findWork (float d, float f){
+  float work= f*d;
+  return work;
+}
 
-## Syntax:
-Demonstrate syntax here
+Description:
+finds work if distance and force are inputed 
 
-##Parameters: 
-Name and describe parameters here
+Syntax:
+work(d,f);
 
-##Returns:
-What type of data does it return?
+Parameters: 
+d - int or float; the distance
+f - int or float; the force
 
-##Other notes:
-Anything else?
+Returns:
+work
+
+Other notes:
+none

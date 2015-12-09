@@ -7,10 +7,10 @@ void setup() {
 
 void draw() {
   background(250);
-  face(random(150),random(150),random(150));
+  baymaxFace(random(150),random(150),random(150));
 }
 
-void face(float r, float g, float b) {
+void baymaxFace(float r, float g, float b) {
   fill(r,g,b);
   noStroke();
   ellipse(x1, height/2, d,d);
