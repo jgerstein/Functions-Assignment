@@ -11,7 +11,7 @@ void draw() {
   println(FtoCel(60)); //print value from fahrenheit to celcius
   println(CeltoK(15.568)); //print value from celcius to kelvin
   println(SecondLaw(200,9.8)); //print value of force using newtons second law
-  circles(); //draw ellipse in canvas
+  circles(200,400,80); //draw ellipse in canvas
 }
 
 float FtoCel(float f) {
@@ -23,10 +23,9 @@ float CeltoK(float cel) {
 float SecondLaw(float mass,float acc) {
   return mass*acc; //formula for newtons second law
 }
-void circles() {
-  ellipse(x, 200, d, d); //draw first ellipse
-  ellipse(x2, 400, d, d); //draw second ellipse
-  ellipse(x3, 600, d, d); //draw third ellipse
+void circles(float x,float y, float d) {
+  ellipse(x, y, d, d); //draw ellipse
+
 }
 void jets() {
   jets = loadImage("6819282-jets-wallpaper.jpg");
