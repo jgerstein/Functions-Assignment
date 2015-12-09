@@ -1,4 +1,4 @@
-float x, x2, x3, d;//diameter of circle
+float x, y, d;//diameter of circle
 PImage jets;
 void setup() {
   size(1000, 800); //size of canvas
