@@ -1,22 +1,31 @@
 float radius;
+PImage electricity, antiElectricity;
 
 void setup() {
   size(1400, 800);
   smooth();
+
   textAlign(CENTER);
   ellipseMode(CENTER);
+  imageMode(CENTER);
   colorMode(HSB);
+  noFill();
+
+  electricity = loadImage("lightning-optical.jpg");
+  antiElectricity = loadImage("anti-lightning-optical.jpg");
 }
 
 void draw() {
   radius = distance();
   background(0);
+
+  tint(255, 100 - map(radius, 0, mouseX, 0, 100));
+  image(electricity, width/2, height/2);
+
   println(electricForce());
-  stroke(255);
-  noFill();
-  ellipse(width/2 - 4, height/2, 110, 110);
   text("Electrostatic Force", width/2, height/2);
   text(electricForce(), width/2, height/2 + 20);
+
   forceStress();
 }
 
@@ -37,6 +46,7 @@ float electricForce() {
 }
 
 void forceStress() {
+  stroke(antiElectricity.get(mouseX, mouseY));
   ellipse(mouseX, mouseY, 20, 20);
   ellipse(width - mouseX, height - mouseY, 20, 20);
 }
