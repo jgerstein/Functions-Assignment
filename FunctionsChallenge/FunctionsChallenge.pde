@@ -15,10 +15,12 @@ String frac(float x) {
 //gravitational force between two objects given positions and masses
 float grav(float m1, PVector r1, float m2, PVector r2) {
   float d = r1.dist(r2);
-  return 0.0000000000667408*m1*m2/d;
+  return 0.0000667408*m1*m2/d;
 }
 
-
+void koch() {
+  
+}
 
 void setup() {
   size(150,150);
