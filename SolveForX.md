@@ -5,6 +5,7 @@ SolveForX
 float SolveForX(float vf, float vo, float t) {  //float SolveForX and vf, vo, and t
   float x = (1.0/2)*(vf + vo)*t;  //float equation to solve for x
   return x;  //return the solution for x
+  }
 
 ## Description:
 solves the equation for the variable x, or displacement
