@@ -1,4 +1,7 @@
 PFont fon;
+float planet = 100;
+float star = 1000;
+float distance = 25;
 void setup()
 {
   fon = createFont("Trebuchet MS", 24);
@@ -10,7 +13,10 @@ void draw()
   textFont(fon);
   fill(0);
   textAlign(LEFT);
-  text("Hello World!", 50, 50);
+  text("Planet's Mass: "+planet, 25, 25);
+  text("Star's Mass: "+star, 25, 50);
+  text("Average Distance: "+distance, 25, 75);
+  text("Orbital Period: "+orbitalPeriod(planet, star, distance), 25, 100);
   bullseye(100, 500, 100, 5);
   bullseye(300, 450, 200, 5);
   bullseye(600, 450, 200, 13);
@@ -25,6 +31,9 @@ float geometricSeries(float a, float r)//first term, common ratio(calculates to 
 }
 float orbitalPeriod(float m1, float m2, float a)//first mass, second mass, average distance between them
 {
+  float numerator = 4*sq(PI)*pow(a,3);
+  float denominator = 6.67*pow(10,-11)*(m1+m2);
+  float answer = sqrt(numerator/denominator);
   return 0;
 }
 void bullseye(float x, float y, float d, int n)//x coordinate, y coordinate, diameter, number of rings
