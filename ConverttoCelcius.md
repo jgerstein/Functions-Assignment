@@ -1,16 +1,16 @@
 # Name: Convert To Celcius
 
 ## Examples:
-Insert examples here.
+FtoCel(60);
 
 ## Description:
-Insert description here
+This converts Fahrenheit to Celcius.
 
 ## Syntax:
-Demonstrate syntax here
+FtoCel(a);
 
 ##Parameters: 
-Name and describe parameters here
+a float: 
 
 ##Returns:
 What type of data does it return?
