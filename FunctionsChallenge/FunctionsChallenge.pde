@@ -6,11 +6,14 @@ void setup()
 }
 void draw()
 {
-  background(255);
+  background(200);
   textFont(fon);
   fill(0);
   textAlign(LEFT);
   text("Hello World!", 50, 50);
+  bullseye(100, 500, 100, 5);
+  bullseye(300, 450, 200, 5);
+  bullseye(600, 450, 200, 13);
 }
 float geometricSeries(float a, float r, int n)//first term, common ratio, number of terms
 {
@@ -24,6 +27,20 @@ float orbitalPeriod(float m1, float m2, float a)//first mass, second mass, avera
 {
   return 0;
 }
-void command(float x, float y, float d, float n)//x coordinate, y coordinate, diameter, number of rings
+void bullseye(float x, float y, float d, int n)//x coordinate, y coordinate, diameter, number of rings
 {
+  boolean red = true;//stores whether or not the next circle is red
+  for(int i = n; i > 0; i--)//for each ring from the outside in
+  {
+    if(red)//fill the circle red
+    {
+      fill(255, 0, 0);
+    }
+    else//or fill the circle white
+    {
+      fill(255);
+    }
+    ellipse(x, y, i*(d/n), i*(d/n));//draw the ring
+    red = !red;//alternate between red and white
+  }
 }
