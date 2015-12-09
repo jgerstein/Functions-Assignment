@@ -1,19 +1,36 @@
-# Name: 
+# Name: momentum()
 
 ## Examples:
-Insert examples here.
+float p;
+
+float v;
+
+float m;
+
+void setup(){
+
+p=momentum(m,v);
+
+}
+
+void draw(){
+
+println(p);
+
+}
 
 ## Description:
-Insert description here
+This function can find the momentum of an object. The momentum of an object refers to the quanity of motion it has. If an object is moving than it has momentum. The parameters for this function are velocity and mass of the object
 
 ## Syntax:
-Demonstrate syntax here
+momentum(mass,velocity)
 
 ##Parameters: 
-Name and describe parameters here
+mass   int or float the mass of the object
+velocity   int or float the mass of the object
 
 ##Returns:
-What type of data does it return?
+returns the value of the momentum in terms of mass and velocity with the units kg/m*s
 
 ##Other notes:
-Anything else?
+this can be used in many phyiscs problems
