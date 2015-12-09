@@ -5,7 +5,8 @@ void setup() {
 
 void draw() {
   background(0);
-  craftA2DimensionalSphere(diameter);
+  craftA2DimensionalSphere(20);
+  areaOfATriangle(15,25,0);
 }
 
 
@@ -15,9 +16,9 @@ void craftA2DimensionalSphere(float diam) {
   ellipse(mouseX,mouseY,diam,diam);
 }
 
-
-void diameter(float r){
-  float d = r * 2;
-  text(d,mouseX + 20,mouseY - 20);
-  return d;
+void areaOfATriangle(float b, float h, float A){
+  fill(255,0,0);
+  A = .5 * b * h;
+  textSize(50);
+  text(A,400,300);
 }
