@@ -23,7 +23,7 @@ coloredcircle(100,0,255);
 This function can draw random circles at at any color with the diameter of your choice.
 
 ## Syntax:
-coloredcircle(r,g,b,diam)
+coloredcircle(diam,r,g,b)
 
 ##Parameters: 
 r       int or float the red value of the color desired
