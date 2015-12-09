@@ -1,19 +1,20 @@
-# Name: 
+# Name: lawofcos()
 
 ## Examples:
-Insert examples here.
+println(lawofcos(5,10,30));
 
 ## Description:
-Insert description here
+Print a line with the value of c as solved for using the law of cosines.
 
 ## Syntax:
-Demonstrate syntax here
+Lawofcos(a,b,angle);
 
 ##Parameters: 
-Name and describe parameters here
+a     float: first side length of triangle
+b     float: second side length of triangle
+c     float: value of angle opposite third side length of triangle
 
 ##Returns:
-What type of data does it return?
+float
 
-##Other notes:
-Anything else?
+
