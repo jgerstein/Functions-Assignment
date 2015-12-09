@@ -1,13 +1,13 @@
 
 void draw(){
-  BlurAImage(2);
+  BlurAImage(2); 
 }
 
-void BlurAImage(float blurintensity){
-  PImage vacation;
-  vacation = loadImage("vacation spot.jpg");
-  image(vacation,0,0,width,height);
-  filter(BLUR,blurintensity);
+void BlurAImage(float blurintensity){  //declare function and variables
+  PImage vacation;    
+  vacation = loadImage("vacation spot.jpg");   //load image
+  image(vacation,0,0,width,height);            //size and position of image
+  filter(BLUR,blurintensity);                  //filter blur image
 }
 
   
