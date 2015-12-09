@@ -1,19 +1,41 @@
-# Name: 
+# Name: coloredcircles()
 
 ## Examples:
-Insert examples here.
+
+void setup(){
+
+size(500,500)
+
+background(0);
+
+}
+
+
+void draw(){
+
+coloredcircle(100,0,255);
+
+
+
+}
 
 ## Description:
-Insert description here
+This function can draw random circles at at any color with the diameter of your choice.
 
 ## Syntax:
-Demonstrate syntax here
+coloredcircle(r,g,b,diam)
 
 ##Parameters: 
-Name and describe parameters here
+r       int or float the red value of the color desired
+
+g       int or float the green value of the color desired
+  
+b       int or float the blue value of the color desired
+
+diam   int or float the diameter of the circles
 
 ##Returns:
-What type of data does it return?
+The return is the picture has no value
 
 ##Other notes:
 Anything else?
