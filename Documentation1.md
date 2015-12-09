@@ -29,10 +29,10 @@ boolean sizeLimit(){
 This graphic function creates a sin wave of ellipses of sizes that vary based on where your mouse is.
 
 ## Syntax:
-void(){}
-void(int parameters){}
-void(float parameters){}
-void(boolean parameters){}
+void name(){}
+void name(int parameters){}
+void name(float parameters){}
+void name(boolean parameters){}
 ##Parameters: 
 You can have as many parameters as you like. Parameters have a primitive before them
 ##Returns:
