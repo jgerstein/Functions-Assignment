@@ -1,19 +1,21 @@
 # Name: Spotlight
 
 ## Examples:
-Insert examples here.
+spotlight(125,45,231,20,234)
+spotlight(255,255,255,15,341)
 
 ## Description:
-Insert description here
+Draws lines that originate from a single point and branch downward across the width of the screen. By default, the first three parameters set stroke color, the fourth sets opacity, and the fifth sets location.
 
 ## Syntax:
-Demonstrate syntax here
+spotlight(r,g,b,o,d)
 
 ##Parameters: 
-Name and describe parameters here
+r        float:red value
+g        float:green value
+b        float:blue value
+o        float:opacity of the fill
+d        float: sets x coordinate location
 
 ##Returns:
-What type of data does it return?
-
-##Other notes:
-Anything else?
+void

@@ -17,8 +17,8 @@ float work(float m, float v) { //define function for work and define paramters
   return 0.5*m*pow(v, 2); //return the results of the work formula using the defined parameters
 }
 
-void spotlight(float r, float g, float b, float t, float d) { //define function and define parameters
-  stroke(r, g, b, t); //set stroke of lines
+void spotlight(float r, float g, float b, float o, float d) { //define function and define parameters
+  stroke(r, g, b, o); //set stroke of lines
   line(d, 0, random(0, width), height); //create lines that start at d and branch out downward across the screen
 
   if (d < width) { //if the end of the line is less than the width, move over 1 pixel
