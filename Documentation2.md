@@ -1,12 +1,12 @@
 # Name: Physics Force Function
 
 ## Examples:
-Insert examples here.
-
-## Description:
 float calculateForce(float mass, float acceleration){
   return (mass * acceleration);
 }
+
+## Description:
+Calculates force by using the equation F=ma. 
 
 ## Syntax:
 calculateForce(variables)
