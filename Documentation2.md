@@ -1,19 +1,20 @@
-# Name: 
+# Name: kinematics()
 
 ## Examples:
-Insert examples here.
+Println(kinematics(18,5,30,9.8));
 
 ## Description:
-Insert description here
-
+Prints the value of x solved for using the kinematic equation.
 ## Syntax:
-Demonstrate syntax here
+kinematics(xo,vo,t,a)
 
 ##Parameters: 
-Name and describe parameters here
-
+xo      float: initial position of object
+vo      float: initial velocity of object
+t       float: time object takes to travel x distance
+a       float: acceleration of object
+         
 ##Returns:
-What type of data does it return?
+Float
 
-##Other notes:
-Anything else?
+

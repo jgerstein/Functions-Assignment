@@ -7,7 +7,7 @@ void setup(){
 
 void draw(){
  
-  println(kinematics(18,5,9.8,30));  //write the number that comes from kinematics function in a single line
+  println(kinematics(18,5,30,9.8));  //write the number that comes from kinematics function in a single line
 }
 
 float kinematics (float xo, float vo, float t, float a){  //float the kinematics function, set variables
