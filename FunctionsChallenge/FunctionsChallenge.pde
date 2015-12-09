@@ -34,7 +34,7 @@ float orbitalPeriod(float m1, float m2, float a)//first mass, second mass, avera
   float numerator = 4*sq(PI)*pow(a,3);
   float denominator = 6.67*pow(10,-11)*(m1+m2);
   float answer = sqrt(numerator/denominator);
-  return 0;
+  return answer;
 }
 void bullseye(float x, float y, float d, int n)//x coordinate, y coordinate, diameter, number of rings
 {
