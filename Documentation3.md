@@ -38,4 +38,4 @@ diam   int or float the diameter of the circles
 The return is the picture has no value
 
 ##Other notes:
-Anything else?
+this is a great function to use for simple background or to create a screen saver
