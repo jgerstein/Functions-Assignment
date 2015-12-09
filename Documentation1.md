@@ -2,14 +2,21 @@
 
 
 float area;
+
 void setup(){
+
 size(500,500);
+
 background(255);
+
 area = circlearea(5);
+
 }
 
 void draw(){
+
 rect(width/2,height/2, area, area);
+
 }
 
 ## Description:
