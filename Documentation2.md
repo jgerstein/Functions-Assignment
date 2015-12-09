@@ -1,19 +1,27 @@
-# Name: 
+# Name: Annie Zhou
 
 ## Examples:
-Insert examples here.
+float pyth(float x, float y){
+  hyp = sqrt(sq(x)+sq(y));
+  return hyp;
+}
 
 ## Description:
-Insert description here
+Returns the hypotenuse of a triangle
 
 ## Syntax:
-Demonstrate syntax here
+float name(){}
+float name(parameters){}
+
+
+
+name - name of function
 
 ##Parameters: 
-Name and describe parameters here
+You can have as many parameters as you like.
 
 ##Returns:
-What type of data does it return?
+a float
 
 ##Other notes:
 Anything else?
