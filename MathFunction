@@ -1,0 +1,17 @@
+# Name: hypotenuseOfRightTriangle
+
+## Examples:
+hypotenuseOfRightTriangle(3,4)
+hypotenuseOfRightTriangle(5,12)
+
+## Description: You can use this function to find the hypotenuse of a triangle using the other two side lengths.
+Insert description here
+
+## Syntax:
+hypotenuseOfRightTriangle(x,y);
+
+##Parameters: 
+x is the first side lengh ann y is the second side length. 
+
+##Returns:
+It returns a float value
