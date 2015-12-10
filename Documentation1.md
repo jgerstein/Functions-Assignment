@@ -1,16 +1,19 @@
-# Name: 
+# Name: craftA2DimensionalSphere
 
 ## Examples:
-Insert examples here.
+craftA2DimensionalSphere(12);
+
+craftA2DimensionalSphere(20);
 
 ## Description:
-Insert description here
+The craftA2DimensionalSphere() function creates a green circle that follows
+the users mouse.
 
 ## Syntax:
-Demonstrate syntax here
+craftA2DimensionalSphere(diameter)
 
 ##Parameters: 
-Name and describe parameters here
+diameter-     sets the diameter of the circle
 
 ##Returns:
 What type of data does it return?
