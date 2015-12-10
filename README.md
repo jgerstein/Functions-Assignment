@@ -1,5 +1,5 @@
 # Functions Challenge
-Your assignment, whether or not you choose to accept it, is to create three functions. One should be phyics-based, another should be math-based, and the third should do something visual. The other half of your assignment is to document your three functions. The three functions should be demonstrated. You may demonstrate them all in one Processing sketch or in up to 3 separate sketches.
+Your assignment, whether or not you choose to accept it, is to create three functions. One should be math-based, another should be physics-based (and yes, I know that's still math-based), and the third should do something visual. The other half of your assignment is to document your three functions. The three functions should be demonstrated. You may demonstrate them all in one Processing sketch or in up to 3 separate sketches.
 
 # Assessment
 This will be a classwork assignment with a total value of 30 points. 5 points for each function, and 5 points for each documentation.
