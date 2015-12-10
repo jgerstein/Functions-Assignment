@@ -1,7 +1,5 @@
-float x, y, d;//variables needed
 void setup() {
   size(1000, 800); //size of canvas
-  d = 100; //value of diameter
 }
 
 void draw() {
