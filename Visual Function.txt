@@ -1,0 +1,19 @@
+# Name: randomCircles();
+
+## Examples: randomCircles();
+Insert examples here.
+
+## Description: Draws random circles of random fill all about the canvas
+Insert description here
+
+## Syntax: randomCircles();
+Demonstrate syntax here
+
+##Parameters: takes no parameters 
+Name and describe parameters here
+
+##Returns: returns no type of data.
+What type of data does it return?
+
+##Other notes:
+Anything else?
