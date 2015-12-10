@@ -10,7 +10,7 @@ This converts Fahrenheit to Celcius. Input a degree value in the parameters, in 
 FtoCel(a)
 
 ##Parameters: 
-a float: Degrees Celcius 
+a float: Degrees Fahrenheit 
 
 ##Returns:
 float 
