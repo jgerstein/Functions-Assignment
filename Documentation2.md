@@ -1,19 +1,21 @@
-# Name: 
+# Name: FindPower
 
 ## Examples:
-Insert examples here.
+P=F*V
 
 ## Description:
-Insert description here
+Physics equation to find power by multiplying the force by the velocity. 
 
 ## Syntax:
-Demonstrate syntax here
+float f
+float v
 
 ##Parameters: 
-Name and describe parameters here
+f=5
+v=5
 
 ##Returns:
-What type of data does it return?
+It returns a numeric value for P. P=25
 
 ##Other notes:
 Anything else?
