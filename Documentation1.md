@@ -1,19 +1,20 @@
 # Name: 
+Force()
 
 ## Examples:
-Insert examples here.
+Force(10,5)
+Returns 50
 
 ## Description:
-Insert description here
+Calculates force by multilying mass and acceleration.
 
 ## Syntax:
-Demonstrate syntax here
+force(m,a)
 
 ##Parameters: 
-Name and describe parameters here
+float m - mass
+float a - acceleration
 
 ##Returns:
-What type of data does it return?
+float f - force
 
-##Other notes:
-Anything else?
