@@ -20,5 +20,3 @@ x         float: x position of point needing y value assigned
 
 ##Returns:
 float
-
-##Other notes:
