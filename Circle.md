@@ -10,7 +10,9 @@ ellipse(cx, cy, d)
 
 ##Parameters: 
 cx	float: x-coordinate of the ellipse
+
 cy	float: y-coordinate of the ellipse
+
 d	float: diameter of the ellipse
 
 ##Returns:
