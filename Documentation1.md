@@ -17,7 +17,7 @@ x=-8
 b=1
 
 ##Returns:
-It returns y, which is just a numeric value. 
+It returns y, which is just a numeric value. y= -15
 
 ##Other notes:
 Anything else?
