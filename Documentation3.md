@@ -1,19 +1,25 @@
-# Name: 
+# Name: DrawALine
 
 ## Examples:
-Insert examples here.
+
 
 ## Description:
-Insert description here
+Visual function to draw random lines across the canvas
 
 ## Syntax:
-Demonstrate syntax here
+float x
+float y
+float xx
+float yy
 
 ##Parameters: 
-Name and describe parameters here
+x= mouseX
+y= mouseY
+xx=random(width)
+yy=random(height)
 
 ##Returns:
-What type of data does it return?
+There is no return value.
 
 ##Other notes:
-Anything else?
+ I thought it was interesting that the lines seem point to the center/ opposite end of the canvas. I didn't know that by settung the ending points of the line to random numbers within the canvas size, I would get that result.
