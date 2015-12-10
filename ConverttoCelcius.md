@@ -7,10 +7,10 @@ FtoCel(60);
 This converts Fahrenheit to Celcius. Input a degree value in the parameters, in Fahrenheit, to convert to Celcius.
 
 ## Syntax:
-FtoCel(a)
+FtoCel(f)
 
 ##Parameters: 
-a float: Degrees Fahrenheit 
+f float: Degrees Fahrenheit 
 
 ##Returns:
 float 
