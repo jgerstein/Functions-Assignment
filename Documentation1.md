@@ -16,7 +16,7 @@ craftA2DimensionalSphere(diameter)
 diameter-     sets the diameter of the circle
 
 ##Returns:
-What type of data does it return?
+Void
 
 ##Other notes:
-Anything else?
+Cursor is invisible
