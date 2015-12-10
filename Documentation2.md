@@ -1,19 +1,21 @@
 # Name: 
+slope()
 
 ## Examples:
-Insert examples here.
+slope(14,15,12,16)
+Returns -.5
 
 ## Description:
-Insert description here
+Calculates the slope of a line from two points on the line
 
 ## Syntax:
-Demonstrate syntax here
+slope(r1x,r1y,r2x,r2y)
 
 ##Parameters: 
-Name and describe parameters here
+float r1x - x coordinate of first point
+float r1y - y coordinate of first point
+float r2x - x coordinate of second point
+float r2y - y coordinate of second point
 
 ##Returns:
-What type of data does it return?
-
-##Other notes:
-Anything else?
+float m - slope

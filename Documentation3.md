@@ -1,19 +1,21 @@
 # Name: 
+donut()
 
 ## Examples:
-Insert examples here.
+donut(width/2,height/2,200)
+Draws a donut in the middle of the window.
 
 ## Description:
-Insert description here
+Draws a colored circle then a black circle 1/3 its size
 
 ## Syntax:
-Demonstrate syntax here
+donut(x,y,diam);
 
 ##Parameters: 
-Name and describe parameters here
+x - x coordinate of donut
+y - y coordinate of donut
+diam - diameter of donut
 
 ##Returns:
-What type of data does it return?
+Displays donut
 
-##Other notes:
-Anything else?
