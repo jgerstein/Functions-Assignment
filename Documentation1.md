@@ -1,19 +1,42 @@
-# Name: 
+# Name: Annie Zhou
 
 ## Examples:
-Insert examples here.
+void sinwave(){
+  fill(255);
+  angle += radians(1);
+  float y = sin(angle)*300 + height/2;
+  x+=8;
+  y+=randomNumber();
+  if(sizeLimit()){
+    x=0;
+  }
+  ellipse(x, y, major(mouseX,mouseY),minor(mouseX,mouseY));
+}
+float major(float a, float b){
+  return a%4+b%3;
+}
+float minor(float a, float b){
+  return (a+b)/15;
+}
+float randomNumber(){
+  return random(0,20);
+}
 
+boolean sizeLimit(){
+  return x>width;
+}
 ## Description:
-Insert description here
+This graphic function creates a sin wave of ellipses of sizes that vary based on where your mouse is.
 
 ## Syntax:
-Demonstrate syntax here
-
+void name(){}
+void name(int parameters){}
+void name(float parameters){}
+void name(boolean parameters){}
 ##Parameters: 
-Name and describe parameters here
-
+You can have as many parameters as you like. Parameters have a primitive before them
 ##Returns:
-What type of data does it return?
+no data returned
 
 ##Other notes:
 Anything else?
