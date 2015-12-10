@@ -4,7 +4,7 @@
 FtoCel(60);
 
 ## Description:
-This converts Fahrenheit to Celcius. Input a value in the parameters in Fahrenheit to convert Celcius
+This converts Fahrenheit to Celcius. Input a degree value in the parameters in Fahrenheit to convert Celcius
 
 ## Syntax:
 FtoCel(a)
