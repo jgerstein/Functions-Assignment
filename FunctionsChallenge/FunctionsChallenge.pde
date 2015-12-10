@@ -1,5 +1,4 @@
-float x, y, d;//diameter of circle
-PImage jets;
+float x, y, d;//variables needed
 void setup() {
   size(1000, 800); //size of canvas
   d = 100; //value of diameter
@@ -7,34 +6,25 @@ void setup() {
 
 void draw() {
   background(0); //set background
-  jets(); //show jets image
   println(FtoCel(60)); //print value from fahrenheit to celcius
   println(CeltoK(15.568)); //print value from celcius to kelvin
   println(SecondLaw(200,9.8)); //print value of force using newtons second law
-  circles(200,400,80); //draw ellipse in canvas
+  circles(500,400,80); //draw ellipse in canvas
 }
 
 float FtoCel(float f) {
-  return .556*(f-32); //formula to convert to celcius
+  return .556*(f-32); //functions converts fahrenheit to celcius
 }
 float CeltoK(float cel) {
-  return cel+273.15; //formula to convert to kelvin
+  return cel+273.15; //function to converts celcius to kelvin
 }
 float SecondLaw(float mass,float acc) {
-  return mass*acc; //formula for newtons second law
+  return mass*acc; //function calulates for using newtons second law
 }
-void circles(float x,float y, float d) {
-  ellipse(x, y, d, d); //draw ellipse
+void circles(float cx,float cy, float d) {
+  ellipse(cx, cy, d, d); //function draws circles 
 
 }
-void jets() {
-  jets = loadImage("6819282-jets-wallpaper.jpg");
-  image(jets, 0, 0);
-}
-void mousePressed() { //change fill of ellipse
+void mousePressed() { //change fill of circle
   fill(random(255), random(255), random(255));
-  x=(random(100, 900));
-  x2=(random(100, 900));
-  x3=(random(100, 900));
-  filter(BLUR,2);
 }
