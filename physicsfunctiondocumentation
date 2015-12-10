@@ -1,0 +1,17 @@
+# Name: Work()
+
+## Examples:
+println(Work(250,15));
+
+## Description:
+This physics function for work will find the value of Work given the values of Force (F) and distance (d). The F and d are multiplied to give the output value of F. 
+
+## Syntax:
+Work(F,d)
+
+##Parameters: 
+float F: the amount of Force it take to do a cetain work 
+float d: the distance the Force moves
+
+##Returns:
+the amount of Work.
