@@ -1,19 +1,19 @@
-# Name: 
+# Name: CeltoK()
 
 ## Examples:
-Insert examples here.
+CeltoK(15.568);
 
 ## Description:
-Insert description here
+This converts Celcius to Kelvin. Input a degree value in the parameters, in Celcius, to convert Celcius
 
 ## Syntax:
-Demonstrate syntax here
+CeltoK(a)
 
 ##Parameters: 
-Name and describe parameters here
+a float: Degrees Celcius
 
 ##Returns:
-What type of data does it return?
+float
 
 ##Other notes:
-Anything else?
+
