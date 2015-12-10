@@ -11,7 +11,9 @@ KinematicEq(v0,acc,x);
 
 ##Parameters: 
 v0 float: inital velocity  
+
 acc float: acceleration
+
 x float: distance
 
 ##Returns:
