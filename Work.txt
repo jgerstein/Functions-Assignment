@@ -1,0 +1,18 @@
+# Name: Work
+
+## Examples:
+
+
+## Description:
+Work is force put on an object times the distance the object goes.
+
+## Syntax:
+float Work(f,d){}
+
+##Parameters: 
+f- Force= the amount of energy put into an object to make it move
+d- Distance= the distance an object is taken by the force
+
+##Returns:
+float
+
