@@ -15,18 +15,28 @@ String frac(float x) {
 //gravitational force between two objects given positions and masses
 float grav(float m1, PVector r1, float m2, PVector r2) {
   float d = r1.dist(r2);
-  return 0.0000667408*m1*m2/d;
+  return 0.0000000000667408*m1*m2/(d*d);
 }
 
-void koch() {
-  
+//recurses a sierpinsky triangle. k is # of times to recurse
+void sier(int k, float x, float y) {
+  if (k == 0) {
+    triangle(x,y,x+5,y+8.66,x+10,y);
+  }
+  else {
+    sier(k-1,x,y);
+    sier(k-1,x+(10*pow(2,k-1)),y);
+    sier(k-1,x+(5*pow(2,k-1)),y+(8.66*pow(2,k-1)));
+  }
 }
 
 void setup() {
-  size(150,150);
+  size(800,600);
 }
 
 void draw() {
   background(0);
-  text(frac(8.8490396),width/2,height/2);
+  text(frac(8.8490396),0,height);
+  fill(255);
+  sier(6,0,0);
 }
