@@ -1,19 +1,19 @@
-# Name: Convert To Celcius
+# Name: FtoCel()
 
 ## Examples:
 FtoCel(60);
 
 ## Description:
-This converts Fahrenheit to Celcius.
+This converts Fahrenheit to Celcius. Input a value in the parameters in Fahrenheit to convert Celcius
 
 ## Syntax:
-FtoCel(a);
+FtoCel(a)
 
 ##Parameters: 
-a float: 
+a float: Degrees Celcius 
 
 ##Returns:
-What type of data does it return?
+float 
 
 ##Other notes:
-Anything else?
+
