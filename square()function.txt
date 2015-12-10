@@ -1,4 +1,4 @@
-# Name: Desiree Armas
+# Name: float square
 
 ## Examples:
 variables 
