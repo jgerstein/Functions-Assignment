@@ -13,21 +13,28 @@ void draw()
   textFont(fon);
   fill(0);
   textAlign(LEFT);
-  text("Planet's Mass: "+planet, 25, 25);
-  text("Star's Mass: "+star, 25, 50);
-  text("Average Distance: "+distance, 25, 75);
-  text("Orbital Period: "+orbitalPeriod(planet, star, distance), 25, 100);
+  text("Planet's Mass: "+planet+" kg", 25, 25);
+  text("Star's Mass: "+star+" kg", 25, 50);
+  text("Average Distance: "+distance+" m", 25, 75);
+  text("Orbital Period: "+orbitalPeriod(planet, star, distance)+" s", 25, 100);
+  text("Geometric Sequence: 10*(0.5)^n", 25, 150);
+  text("Sum of First 10 Terms: "+geometricSeries(10, 0.5, 10), 25, 175);
+  text("Sum of Infinite Series: "+geometricSeries(10, 0.5), 25, 200);
   bullseye(100, 500, 100, 5);
   bullseye(300, 450, 200, 5);
   bullseye(600, 450, 200, 13);
 }
 float geometricSeries(float a, float r, int n)//first term, common ratio, number of terms
 {
-  return 0;
+  float numerator = 1-pow(r,n);
+  float denominator = 1-r;
+  float answer = a*(numerator/denominator);
+  return answer;
 }
 float geometricSeries(float a, float r)//first term, common ratio(calculates to infinity)
 {
-  return 0;
+  float answer = a/(1-r);
+  return answer;
 }
 float orbitalPeriod(float m1, float m2, float a)//first mass, second mass, average distance between them
 {
