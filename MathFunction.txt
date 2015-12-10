@@ -1,0 +1,19 @@
+# Name: pyth()
+
+## Examples: pyth(3,4); //returns 5
+Insert examples here.
+
+## Description: Solves for the hypotenuse of a right triangle
+Insert description here
+
+## Syntax: pyth(a,b);
+Demonstrate syntax here
+
+##Parameters: float a = length of one side, float b = length of other side 
+Name and describe parameters here
+
+##Returns: Returns a float value equal to the hypotenuse
+What type of data does it return?
+
+##Other notes:
+Anything else?
