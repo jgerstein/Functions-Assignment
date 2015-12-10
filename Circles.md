@@ -1,4 +1,4 @@
-# Name: Circles
+# Name: circle()
 
 ## Examples:
 circle(200,400,80);
