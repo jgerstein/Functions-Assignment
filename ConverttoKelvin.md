@@ -7,10 +7,10 @@ CeltoK(15.568);
 This converts Celcius to Kelvin. Input a degree value in the parameters, in Celcius, to convert to Kelvin.
 
 ## Syntax:
-CeltoK(a)
+CeltoK(cel)
 
 ##Parameters: 
-a float: Degrees Celcius
+cel float: Degrees Celcius
 
 ##Returns:
 float
