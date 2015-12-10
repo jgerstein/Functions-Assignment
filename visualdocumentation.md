@@ -13,7 +13,7 @@ void BlurAImage(float blurintensity){
 Allow user to change blur intensity of an image and blur image.
 
 ## Syntax:
-BlurAImage(variable);
+BlurAImage(blurintensity);
 
 ##Parameters: 
 value of intensity of blur; the larger the value, the blurrier the image is.

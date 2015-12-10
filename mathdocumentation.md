@@ -14,7 +14,7 @@ float []quadratic(float a, float b, float c){    //declare function and variable
 Calculates x by using the quadratic equation. This function expects the values of x to be any real whole number. If the solution for x if is a decimal, no solution would appear in the command line.
 
 ## Syntax:
-quadratic(variables)
+quadratic(coefficients a, b, c)
 
 ##Parameters: 
 coefficient values in the quadratic equation ax^2+bx+c

@@ -10,7 +10,7 @@
 Calculates force by using the equation F=ma. 
 
 ## Syntax:
-calculateForce(variables)
+calculateForce(floats mass, acceleration)
 
 ##Parameters: 
 values for mass and acceleration
