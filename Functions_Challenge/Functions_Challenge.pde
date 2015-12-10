@@ -19,15 +19,17 @@ void draw() {
   background(0); //set a background each frame
   ellipse(cx, cy, 15, 15); //draw the ellipse at location
   
+  randomCircles(); //draw random circles
+  
   cy = cy+vo1; //add a velocity to location
   vo1 = vo1+a1; //add acceleration to velocity
 
-  println(pyth(x, y)); 
-  println(kinematic1(vo, a, t));
-  textSize(30);
-  fill(255);
-  text(x, 10, 45);
-  text(y, 130, 45);
-  text(pyth(x, y), 30, 90);
-  text(kinematic1(vo, a, t), (width/2)- 40, height-40);
+  println(pyth(x, y)); //make sure it works 
+  println(kinematic1(vo, a, t)); //make sure it works
+  textSize(30); //set text size
+  fill(255); //set text fill
+  text(x, 10, 45); //draw value for x
+  text(y, 130, 45); //draw value for y
+  text(pyth(x, y), 30, 90); //draw value for what pyth returns when x and y are inputed
+  text(kinematic1(vo, a, t), (width/2)- 40, height-40); //return value for vf when vo, a, and t are inputed
 }
