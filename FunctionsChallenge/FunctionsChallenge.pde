@@ -11,14 +11,14 @@ void draw() {
   weight(0,20,9.81);
 }
 
-//Function that creates circle
+//Visual
 void craftA2DimensionalSphere(float diam) {
   noCursor();
   fill(0,255,0);
   ellipse(mouseX,mouseY,diam,diam);
 }
 
-//Function that calculates area of a triangle
+//Math
 void areaOfATriangle(float b, float h, float A){
   fill(255,0,0);
   A = .5 * b * h;
@@ -28,7 +28,7 @@ void areaOfATriangle(float b, float h, float A){
   text("2",640,275);
 }
 
-//Function that calculates weight
+//Physics
 void weight(float W, float m, float g){
   fill(0,0,255);
   W = m * g;
