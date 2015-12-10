@@ -82,8 +82,8 @@ void draw() {
   strokeWeight(1);
   for(float i = 0; i < 1000; i += 0.1) {
     stroke(255);
-    line(width/2+pc1(i).x,height/2+pc1(i).y,width/2+pc1(i+0.1).x,height/2+pc1(i+0.1).y);
-    line(width/2+pc2(i).x,height/2+pc2(i).y,width/2+pc2(i+0.1).x,height/2+pc2(i+0.1).y);
+    line(width/2+pc1(i).x/ux,height/2+pc1(i).y/uy,width/2+pc1(i+0.1).x/ux,height/2+pc1(i+0.1).y/uy);
+    line(width/2+pc2(i).x/ux,height/2+pc2(i).y/uy,width/2+pc2(i+0.1).x/ux,height/2+pc2(i+0.1).y/uy);
   }
 }
 
@@ -107,12 +107,12 @@ float f4(float x) {
 //paremetric curves
 //butterfly curve
 PVector pc1(float t) {
-  return new PVector(50*sin(t)*(exp(cos(t))-2*cos(4*t)-pow(sin(t/12), 5)),-50*cos(t)*(exp(cos(t))-2*cos(4*t)-pow(sin(t/12), 5)));
+  return new PVector(1000*sin(t)*(exp(cos(t))-2*cos(4*t)-pow(sin(t/12), 5)),-1000*cos(t)*(exp(cos(t))-2*cos(4*t)-pow(sin(t/12), 5)));
 }
 
 //logarithmic spiral
 PVector pc2(float t) {
-  return new PVector(sin(t)*exp(t/10)/25,cos(t)*exp(t/10)/25);
+  return new PVector(sin(t)*exp(t/10)/100,cos(t)*exp(t/10)/100);
 }
 
 //integrals of function continuous over visible graph
