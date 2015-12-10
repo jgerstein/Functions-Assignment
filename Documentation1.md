@@ -1,19 +1,23 @@
-# Name: 
+# Name: FindYCoordinate
 
 ## Examples:
-Insert examples here.
+y=mx+b
 
 ## Description:
-Insert description here
+Find the y coordinate using the equation in slope-intercept form. 
 
 ## Syntax:
-Demonstrate syntax here
+float m
+float x
+float b
 
 ##Parameters: 
-Name and describe parameters here
+m=2
+x=-8
+b=1
 
 ##Returns:
-What type of data does it return?
+It returns y, which is just a numeric value. 
 
 ##Other notes:
 Anything else?
