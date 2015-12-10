@@ -1,0 +1,30 @@
+# Name: float [] quadratic
+
+## Examples:
+float[] quadratic(float a, float b, float c) {
+  float[] answers = new float[2];
+  answers[0]=(-b + sqrt( b*b - 4*a*c)) / (2*a);
+  answers[1]=(-b - sqrt( b*b - 4*a*c)) / (2*a);
+  return answers;
+
+## Description:
+the function was created to calculate the zeros of the equation, chosen by user, by using the
+quadratic formula. it is an array, since the formula will provide two answers.
+the function is a float, since it will return a value, and then set up with three float parameters
+
+## Syntax:
+datatype[]var( float var, float var, float var){
+	datatype[]var= new datatype[n];
+	var[n]=value;
+	return var;
+
+##Parameters: 
+float a,b,c= according to equation chosen by user in void draw 
+these are the coefficients in the quadratic formula, and also serve as the variables 
+in the function 
+
+##Returns:
+the zeros of the equation (value)
+
+##Other notes:
+Anything else?

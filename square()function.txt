@@ -1,0 +1,28 @@
+# Name: float square
+
+## Examples:
+variables 
+num=25;
+the program will then find the square root of 25
+
+## Description:
+the user gets to choose a number
+the program will then find the sqaure root of that number
+( in order for the syntax to be user-friendly, 
+I inserted a variable , num and result, instead of an actual value)
+
+## Syntax:
+void draw(){
+println(square(25));//the user chose this number, represented in the below code (num) 
+float square(int num) {
+  float result=sqrt(num);// this finds the square root of the number, represented by (result) 
+  return result;//returns the result 
+
+##Parameters: 
+integers( int num)
+
+##Returns:
+the square root of a chosen number
+
+##Other notes:
+Anything else?
