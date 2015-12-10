@@ -1,0 +1,23 @@
+# Name: circle
+
+## Examples:
+Insert examples here.
+
+## Description:
+Draws a circle using the standard equation of a circle
+
+## Syntax:
+float circle(h,k,r,x,y){}
+
+##Parameters: 
+h- the x coordinate of the center of the circle
+k- the y coordinate of the center of the circle
+r- the radius of the circle
+x- the x position on the canvas
+y- the y position on the canvas
+
+##Returns:
+float
+
+##Other notes:
+the fill color also changes everytime the mouse is pressed
