@@ -25,4 +25,6 @@ void circles(float cx,float cy, float d) {
 }
 void mousePressed() { //change fill of circle
   fill(random(255), random(255), random(255));
+  stroke(random(255), random(255), random(255));
+  strokeWeight(10);
 }
