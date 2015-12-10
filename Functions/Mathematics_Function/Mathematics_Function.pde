@@ -112,7 +112,7 @@ PVector pc1(float t) {
 
 //logarithmic spiral
 PVector pc2(float t) {
-  return new PVector(sin(t)*exp(t/10)/ux,cos(t)*exp(t/10)/uy);
+  return new PVector(sin(t)*exp(t/10)/25,cos(t)*exp(t/10)/25);
 }
 
 //integrals of function continuous over visible graph
