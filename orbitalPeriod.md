@@ -5,7 +5,7 @@ orbitalPeriod()
 float time = orbitalPeriod(20000, 80, 2800);//time holds a value close to 804160000.0
 
 ## Description:
-Insert description here
+Returns the orbital period of a two-body gravitational system given both masses and the average distance between them. Uses the equation from Kepler's Third Law. This takes the masses in kilograms and the distance in meters. It returns the period in seconds.
 
 ## Syntax:
 orbitalPeriod(m1, m2, a)
@@ -19,4 +19,4 @@ a	float: average distance between the two objects during orbit
 float
 
 ##Other notes:
-Anything else?
+None
