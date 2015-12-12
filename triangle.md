@@ -1,13 +1,13 @@
 # Name: 
-
+drawtriangle
 ## Examples:
-Insert examples here.
+triangle(345, 234, 578, 234, 563, 455);
 
 ## Description:
-Insert description here
+draws a triangle at a user-specified location along with a user-specified color
 
 ## Syntax:
-Demonstrate syntax here
+
 
 ##Parameters: 
 Name and describe parameters here
