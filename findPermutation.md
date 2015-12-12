@@ -1,4 +1,4 @@
-# Ankita Kodali
+# Name: findPermutation
 
 ## Examples:
 If there were 5 children running in a race, determine how many ways these children could win first, second, and third place. Using the permutation formula will give the answer quicker than trying to list every possibility.
