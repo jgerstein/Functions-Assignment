@@ -10,11 +10,11 @@ void draw () {
 
 
 float convertmeterstomiles (float x) {  //convert meters to miles
-  float result = mouseX * 1000 * .625;
+  float result = x * 1000 * .625;
   return result;
 }
 
 float convertinchestokm (float y) {  //convert inches to kilometers
-  float result = mouseY *  .0833 * .0001 * .625;
+  float result = y *  .0833 * .0001 * .625;
   return result;
 }
