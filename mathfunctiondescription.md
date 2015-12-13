@@ -5,7 +5,7 @@ println(convertmeterstomiles(10)), 10 meters = 6250 miles;
 println(convertinchestokm(10)), 10 inches = 5.206 x 10^-5 km
 
 ## Description:
-Converts inches to kilometeres and meters to miles
+Converts inches to kilometers and meters to miles
 
 ## Syntax:
 (x, y)
