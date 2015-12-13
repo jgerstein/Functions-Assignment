@@ -1,19 +1,24 @@
-# Name: 
+# Physics Function: 
 
 ## Examples:
-Insert examples here.
+void draw () {
+  FinalVelocityOfObject (0, 2, 2);
+  }
 
 ## Description:
-Insert description here
+with this function you can easily find the final velocity of something by inputting the inital
+velocity, the acceleration, and the time
 
 ## Syntax:
-Demonstrate syntax here
+ FinalVelocityOfObject (a, b, c);
 
 ##Parameters: 
-Name and describe parameters here
+a: initial velocity
+b: acceleration
+c: time
 
 ##Returns:
-What type of data does it return?
+int
 
 ##Other notes:
-Anything else?
+great for physics hw

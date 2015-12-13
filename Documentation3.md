@@ -1,19 +1,21 @@
-# Name: 
+# Visual Function: 
 
 ## Examples:
-Insert examples here.
+void draw(){
+DrawATree(300);
+}
 
 ## Description:
-Insert description here
+Draws a cute tree that you can set the leaf size of
 
 ## Syntax:
-Demonstrate syntax here
+DrawATree(a);
 
 ##Parameters: 
-Name and describe parameters here
+a: leaf size
 
 ##Returns:
-What type of data does it return?
+void
 
 ##Other notes:
-Anything else?
+time saver
