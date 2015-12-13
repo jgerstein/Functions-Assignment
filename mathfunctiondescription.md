@@ -1,7 +1,8 @@
 # Name: 
 Unit Conversions (2 options)
 ## Examples:
-println(convertmeterstomiles(13))
+println(convertmeterstomiles(10)), 10 meters = 6250 miles
+println(convertinchestokm(10)), 10 inches = 5.206 x 10^-5 km
 
 ## Description:
 Converts inches to kilometeres and meters to miles
