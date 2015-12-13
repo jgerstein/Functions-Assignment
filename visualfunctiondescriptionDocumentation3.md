@@ -1,19 +1,20 @@
 # Name: 
-
+Background w/ array of circles
 ## Examples:
-Insert examples here.
+
 
 ## Description:
-Insert description here
+Plots a picture in the middle of the canvas as an array of circles appear.  If any key is pressed, the tint on the pic will change.
 
 ## Syntax:
-Demonstrate syntax here
+Pimage ()
+DrawArrayofCircles ()
 
 ##Parameters: 
-Name and describe parameters here
+no parameters
 
 ##Returns:
-What type of data does it return?
+void
 
 ##Other notes:
 Anything else?
