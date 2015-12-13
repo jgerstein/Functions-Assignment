@@ -1,15 +1,14 @@
 void setup () {
-
 }
 
 void draw () {
-FinalVelocityOfObject ();
+  FinalVelocityOfObject (0, 2, 2); //calls function
+  //plug in inital velocity, acceleration, and time//
 }
 
-float FinalVelocityOfObject (float Vof0,float Acceleration, float Time) {
- float finalvelocity;
-  finalvelocity = Vof0 + (Acceleration*Time);
-  println(finalvelocity);
-  return finalvelocity;
-
+int FinalVelocityOfObject (int Vof0, int Acceleration, int Time) {// defines function
+  int finalvelocity; // sets finalvelocity as an int
+  finalvelocity = Vof0 + (Acceleration*Time); //defines finalvelocity  
+  println(finalvelocity); //prints the value in the command line
+  return finalvelocity; //returns value
 }
