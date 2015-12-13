@@ -1,7 +1,7 @@
 # Name: 
 Finding final speed of an object
 ## Examples:
-println(finalspeed(2,4,8)) 
+println(finalspeed(2,4,8)), 
 final speed = 6.928203
 
 ## Description:
