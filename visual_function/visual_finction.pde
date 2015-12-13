@@ -17,9 +17,7 @@ void setup () {
 void draw () { 
   background(56, 255, 221);   //give a light blue background
   image(images, 250, 250);    //draw the chosen image and establish its location
-  if (keyPressed) {   //if any key is pressed, give a random tint
-  tint(random(255),random(255),random(255));
-  }
+  Pimage();
   DrawArrayofCircles();   //use this function to draw an array of circles
 }
 
@@ -29,3 +27,10 @@ void DrawArrayofCircles () {
     ellipse(x[i], y[i], diam[i], diam[i]);    //draw circles randomly
   }
 }
+
+void Pimage () {
+  image(images, 250, 250);    //draw the chosen image and establish its location
+  if (keyPressed) {   //if any key is pressed, give a random tint
+  tint(random(255),random(255),random(255));
+  }
+}  
