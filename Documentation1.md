@@ -21,4 +21,4 @@ Fdeg: The farenheit value you want to convert
 int
 
 ##Other notes:
-Anything else?
+Good for scientists
