@@ -1,19 +1,20 @@
 # Name: 
-Christian Bondalo
+Unit Conversions (2 options)
 ## Examples:
-Insert examples here.
+println(convertmeterstomiles(13))
 
 ## Description:
-Insert description here
+Converts inches to kilometeres and meters to miles
 
 ## Syntax:
-Demonstrate syntax here
+(x, y)
 
 ##Parameters: 
-Name and describe parameters here
+x = inputted x value
+y = inputted y value
 
 ##Returns:
-What type of data does it return?
+Float
 
 ##Other notes:
 Anything else?
