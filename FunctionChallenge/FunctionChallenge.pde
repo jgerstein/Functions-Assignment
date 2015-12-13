@@ -28,7 +28,7 @@ void draw(){
   ellipse(x,y,diam,diam);
   
   //draw crosshairs by calling "crosshair" function
-  crosshair(50,mouseX,mouseY,25,150,200);
+  crosshair(50,mouseX,mouseY,15,5,25,150,200);
   
   //have ellipse bounce off of the canvas' floor
   if(y + diam/2 > height){
@@ -49,7 +49,7 @@ void gravity(float g){
 }
 
 //create crosshair function to draw crosshairs at a given location
-void crosshair(float d, float xi, float yi, float r, float g, float b){
+void crosshair(float d, float xi, float yi, float l, float w, float r, float g, float b){
   //color crosshairs
   stroke(r,g,b);
   fill(r,g,b);
@@ -59,10 +59,10 @@ void crosshair(float d, float xi, float yi, float r, float g, float b){
   
   //draw rectangles around crosshairs
   rectMode(CENTER);
-  rect(xi, yi + 20, 5, 15);
-  rect(xi, yi - 20, 5, 15);
-  rect(xi + 20, yi, 15, 5);
-  rect(xi - 20, yi, 15, 5);
+  rect(xi, yi + l + w, w, l);
+  rect(xi, yi - l - w, w, l);
+  rect(xi + l + w, yi, l, w);
+  rect(xi - l - w, yi, l, w);
 }
 
 //create fortyTwo function to set a given number to forty two in a circuitious way
