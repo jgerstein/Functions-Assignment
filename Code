@@ -1,0 +1,16 @@
+void setup()
+{
+}
+
+void draw()
+{
+  println(whenXDoesYouWrong(1,9,-10));
+}
+
+float[] whenXDoesYouWrong(float a, float b, float c)
+{
+  float[]x = new float[2];
+  x[0] = -b + (sqrt(sq(b) - 4*a*c))/2*a;
+  x[1] = -b - (sqrt(sq(b) - 4*a*c))/2*a;
+  return x;
+}
