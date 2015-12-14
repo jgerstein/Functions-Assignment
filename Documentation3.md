@@ -1,19 +1,21 @@
-# Name: 
+# Force: 
 
 ## Examples:
-Insert examples here.
+void draw(){
+  println(force(7,9.8));
+  }
 
 ## Description:
-Insert description here
+this function finds the force by multiplying the mass times the acceleration
 
 ## Syntax:
-Demonstrate syntax here
+float force(m, a);
 
 ##Parameters: 
-Name and describe parameters here
-
+m: mass
+a: acceleration
 ##Returns:
-What type of data does it return?
+int
 
 ##Other notes:
 Anything else?

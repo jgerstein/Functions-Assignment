@@ -1,19 +1,21 @@
-# Name: 
+# RedRectangle: 
 
 ## Examples:
-Insert examples here.
+void draw() {
+  drawRedRect();
+}
 
 ## Description:
-Insert description here
+Function that when calls draws a large red rectangle on the screen
 
 ## Syntax:
-Demonstrate syntax here
+drawRedRect();
 
 ##Parameters: 
-Name and describe parameters here
+none
 
 ##Returns:
-What type of data does it return?
+void
 
 ##Other notes:
 Anything else?
