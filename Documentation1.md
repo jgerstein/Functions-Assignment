@@ -1,19 +1,21 @@
-# Name: 
+# Name: interestFormula()
 
 ## Examples:
-Insert examples here.
+interestFormula(2,01,3)
 
 ## Description:
-Insert description here
+Calculates and prints interest using the simple itnerest formula.
 
 ## Syntax:
-Demonstrate syntax here
+interestFormula(p, r, t)
 
 ##Parameters: 
-Name and describe parameters here
+p     float: principal amount
+r     float: interest rate
+t     float: time
+
 
 ##Returns:
-What type of data does it return?
+float
 
-##Other notes:
-Anything else?
+
