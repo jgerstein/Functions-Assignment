@@ -1,4 +1,4 @@
-# Name: areaOfATriangle
+# Name: areaOfATriangle()
 
 ## Examples:
 areaOfATriangle(20,30,0);
