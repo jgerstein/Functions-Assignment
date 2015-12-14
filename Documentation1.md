@@ -1,4 +1,4 @@
-# Name: craftA2DimensionalSphere
+# Name: craftA2DimensionalSphere()
 
 ## Examples:
 craftA2DimensionalSphere(12);
