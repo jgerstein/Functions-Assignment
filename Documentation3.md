@@ -2,10 +2,11 @@
 forceStress()
 
 ## Examples:
-background(0);
-noFill();
-stroke(255);
-forceStress();
+background(0);    //this is the background wow
+size(800,600);    //set the canvas size
+noFill();     //no fill I mean really what did it say
+stroke(255);    //line colour of white
+forceStress();    //call forceStress function
 
 ## Description:
 draws pretty circles
@@ -30,7 +31,5 @@ void
 ##Other notes:
 Somewhere in my mind is the pervasive quote that Frank Herbert wrote in Dune...
 but I'm too tired to remember it, and I'm listening to the new Monster Hunter Cross
-soundtrack, which can be found here, obviously labelled in the video titles.
+soundtrack, which can be found here, obviously labelled in the video titles... (falls asleep)
 https://www.youtube.com/watch?v=yPdow2PaXNk&index=7&list=LLIVa2v7YJ2K4Nwmz-WCnEog
-Did I miss anything? I can't re-read my work at this hour... gahh.
-WHAT AM I SAYING THIS IS A GRADED ASSIGNMENT (slaps self)
