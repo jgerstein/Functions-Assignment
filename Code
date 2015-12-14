@@ -18,8 +18,6 @@ float[] whenXDoesYouWrong(float a, float b, float c)
   return x;
 }
 
-//physics function
-
 float springInMyStep (float a, float b, char isolate) //work in a spring
 {
   float result = 0;
