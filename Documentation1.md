@@ -17,7 +17,7 @@ b     float: the b value in the quadratic formula
 c     float: the c value in the quadratic formula
 
 ##Returns:
-Returns float for x[0] (positive value of x) and x[1] (negative value of x)
+Returns float for x[ 0 ] (positive value of x) and x[ 1 ] (negative value of x)
 
 ##Other notes:
 The name is a result of my hatred for the quadratic formula.
