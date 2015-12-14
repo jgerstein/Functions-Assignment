@@ -1,19 +1,24 @@
-# Name: 
+# Name: areaOfATriangle
 
 ## Examples:
-Insert examples here.
+areaOfATriangle(20,30,0);
+
+areaOfATriangle(35,10,0);
 
 ## Description:
-Insert description here
+The areaOfATriangle() function calculates the area of a triangle using the base and height 
+parameters that you assign it.
 
 ## Syntax:
-Demonstrate syntax here
+areaOfATriangle(Base,Height,0)
 
 ##Parameters: 
-Name and describe parameters here
+Base - a positive interger assigning a value for the base of the triangle
+
+Height - a positive integer assigning a value for the height of the triangle
 
 ##Returns:
-What type of data does it return?
+float A
 
 ##Other notes:
-Anything else?
+The last parameter should always be entered as zero because it is the area.
