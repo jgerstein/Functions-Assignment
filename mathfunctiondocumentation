@@ -1,0 +1,19 @@
+# Name: pointslope()
+
+## Examples:
+printlm(pointslope(3,4,7)); 
+
+## Description:
+This function will give the y value for the point slope math equation, y=mx=b. The m stands for the slope, the x stands for the x coordinate, and the b stands for the y-intercept. This equation uses 3 variables to come up with the result of y for the x value plugged into the equation. This equation is linear.
+
+## Syntax:
+pointslope(m, x, b)
+
+##Parameters: 
+float m: slope of line  
+float x: x coordinate of any point of the line
+float b: y-intercept of the line 
+
+##Returns:
+the Y value for the X value. 
+
