@@ -1,19 +1,21 @@
-# Name: 
+# Area of Triangle: 
 
 ## Examples:
-Insert examples here.
-
+void draw() {
+  println(trianglearea(5, 20));
+}
 ## Description:
-Insert description here
+this function finds the area of a triangle
 
 ## Syntax:
-Demonstrate syntax here
+println(trianglearea(a, b));
 
 ##Parameters: 
-Name and describe parameters here
+a: base
+b: height
 
 ##Returns:
-What type of data does it return?
+int
 
 ##Other notes:
 Anything else?
