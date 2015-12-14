@@ -1,19 +1,28 @@
-# Name: 
+Name: Finddisplacement 
 
-## Examples:
-Insert examples here.
+Examples:
+float displacement, float acc, float time, float x) {
+    displacement = x;
+    displacement = acc * time;
+    
+    Finddisplacement(5,5,5,5);
+    Finddisplacement(15,15,15,15);
+    Finddisplacement(25,25,25,25);
 
-## Description:
-Insert description here
+Description:
+Finds the displacement when given acceleration and time or any other variation of having 2 variables
 
-## Syntax:
-Demonstrate syntax here
+Syntax:
+ (a, b, c, d) {
+ 
+Parameters: 
 
-##Parameters: 
-Name and describe parameters here
+ a int displacement
+ b  int acc
+ c  int time
+ d  x value
 
-##Returns:
-What type of data does it return?
+Returns: int
 
-##Other notes:
-Anything else?
+Other notes: Physics equation
+

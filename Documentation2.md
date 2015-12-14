@@ -1,19 +1,15 @@
-# Name: 
+Name: ConvertFahrenheitToCentigrade
 
-## Examples:
-Insert examples here.
+Examples: ConvertFahrenheitToCentigrade (32); Cdegree -= 32; //fahrenheit minus 32 Cdegree = Cdegree/1.8; //(fahrenheit minus 32) divided by 1.8
 
-## Description:
-Insert description here
+Description: Converts fahrenheit temperatures into centigrade.
 
-## Syntax:
-Demonstrate syntax here
+Syntax: ConvertFahrenheitToCentigrade (a); Cdegree -= 32; //fahrenheit minus 32 Cdegree = Cdegree/1.8; //(fahrenheit minus 32) divided by 1.8
 
-##Parameters: 
-Name and describe parameters here
+Parameters:
 
-##Returns:
-What type of data does it return?
+a float value of fahrentheit temperaure being converted.
 
-##Other notes:
-Anything else?
+Returns: Cdegree
+
+Other notes: Mathematics
