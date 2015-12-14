@@ -11,7 +11,9 @@ whenXDoesYouWrong(a, b, c)
 
 ##Parameters: 
 a     float: the a value in the quadratic formula
+
 b     float: the b value in the quadratic formula
+
 c     float: the c value in the quadratic formula
 
 ##Returns:
