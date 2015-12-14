@@ -1,11 +1,14 @@
 float vf, a;
-int count=10;
+int count=25;
 //declare arrays
 float []x= new float[count];
 float []y= new float[count];
 float []d= new float[count];
 float []vx= new float[count];
 float []vy= new float[count];
+float []r= new float[count];
+float []g= new float[count];
+float []b= new float[count];
 
 void setup() {
   size(500, 500);
@@ -15,6 +18,9 @@ void setup() {
     d[i] = random(80);
     vx[i] = random(-5, 5);
     vy[i] = random(-5, 5);
+    r[i] = random(255);
+    g[i] = random(255);
+    b[i] = random(255);
   }
 }
 
@@ -22,7 +28,8 @@ void draw() {
   background(255);
   for (int i=0; i<count; i++) {
     //draw ball
-    fill(0);
+    noStroke();
+    fill(r[i],g[i],b[i]);
     ellipse(x[i], y[i], d[i], d[i]);
     x[i] += vx[i];
     y[i] += vy[i];
