@@ -18,7 +18,7 @@ float[] whenXDoesYouWrong(float a, float b, float c)
   return x;
 }
 
-float springInMyStep (float a, float b, char isolate) //work in a spring
+float springInMyStep (float a, float b, char isolate)
 {
   float result = 0;
   if(isolate == 'w')
