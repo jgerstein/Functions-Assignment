@@ -1,19 +1,23 @@
-# Name: 
+# Name: weight()
 
 ## Examples:
-Insert examples here.
+weight(0,20,9.81);
+
+weight(0,30,9.81);
 
 ## Description:
-Insert description here
+The weight() function calculates the weight of an object using the 
+mass you assign it and Earth's gravity constant.
 
 ## Syntax:
-Demonstrate syntax here
+weight(0,Mass,9.81)
 
 ##Parameters: 
-Name and describe parameters here
+Mass - an integer you assign representing the mass of the object
 
 ##Returns:
-What type of data does it return?
+float W
 
 ##Other notes:
-Anything else?
+The first parameter should always be zero and the last parameter should
+always be 9.81 for gravity.
