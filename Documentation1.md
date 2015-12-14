@@ -1,19 +1,24 @@
-# Name: 
+# Name:
+distance()
 
 ## Examples:
-Insert examples here.
+float radius;   //declare 'radius'
+radius = distance();    //initialize 'radius' as the value given by distance()
+ellipse(width/2, height/2, radius, radius);   //draw ellipse using the value of distance()
 
 ## Description:
-Insert description here
+calculates the positive distance between two points
+points are mouseX and the opposite of mouseX, from the center
 
 ## Syntax:
-Demonstrate syntax here
+distance()
 
 ##Parameters: 
-Name and describe parameters here
+none
 
 ##Returns:
-What type of data does it return?
+float
 
 ##Other notes:
-Anything else?
+based on mouseX and mouseY
+the points represent charges in the Fe=kq1q2/r^2 equation
