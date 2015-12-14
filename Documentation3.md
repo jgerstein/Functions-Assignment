@@ -1,19 +1,27 @@
-# Name: 
+# Name: drawcircle
 
 ## Examples:
-Insert examples here.
+drawcircle(100, 100, 100, 20) 
 
 ## Description:
-Insert description here
+Inserts a circle at mouseX and mouseY into the drawing. The color and diameter of the circle can be input by defining red, blue, green and diam. 
 
 ## Syntax:
-Demonstrate syntax here
+void drawcircle (float red, float blue, float green, float diam) {   noStroke();  
+fill(red, blue, green);  
+ellipse(mouseX, mouseY, diam, diam); 
+}
 
 ##Parameters: 
-Name and describe parameters here
+Float red
+Float blue
+Float green
+Float diam
+
+Function is a void
 
 ##Returns:
-What type of data does it return?
+Function returns visual data
 
 ##Other notes:
-Anything else?
+
