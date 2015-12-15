@@ -20,4 +20,4 @@ value3     float: the c value in the quadratic formula
 Returns float for positive and negative values of x.
 
 ##Other notes:
-The name is a result of my hatred for the quadratic formula.
+The name is a result of my dislike of the quadratic formula.
