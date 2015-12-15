@@ -1,0 +1,28 @@
+# Name: 
+finalvelocity()
+
+## Examples:
+void draw() {
+  println(finalvelocity(5, 9, 30)); //print the final velocity in m/s
+}
+
+float finalvelocity( float vo, float accel, float t) { //find the final velocity
+  float result= vo+(accel*t);
+  return result;
+}
+
+## Description:
+This function uses the equation vf=vo+at to find the final velocity given the other parameters. Velocity is is a physical vector quantity; both magnitude and direction are needed to define it. The final velocity is the velocity at the ending time or position.
+
+## Syntax:
+finalvelocity(vo,accel,t);
+
+##Parameters: 
+vo     Initial Velocity
+accel  Acceleration
+t      time 
+
+##Returns:
+float
+
+
