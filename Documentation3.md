@@ -1,19 +1,18 @@
 # Name: followMrMouse()
 
 ## Examples:
-
+followMrMouse();
 
 ## Description:
-Insert description here
+Creates an ellipse that follows the mouse in a zigzag pattern.
 
 ## Syntax:
-Demonstrate syntax here
+followMrMouse()
 
 ##Parameters: 
-Name and describe parameters here
+
 
 ##Returns:
-What type of data does it return?
+Does not return data.
 
 ##Other notes:
-Anything else?
