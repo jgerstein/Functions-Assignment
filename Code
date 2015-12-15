@@ -1,23 +1,17 @@
 int diam;
-PVector loc1;
-PVector vel1;
-PVector loc2;
-PVector vel2;
+PVector loc;
+PVector vel;
 
 void setup()
 {
-  background(0);
   size(400,400);
   diam = 15;
-  loc1 = new PVector (mouseX, mouseY);
-  loc2 = new PVector (mouseX, mouseY);
-  vel1 = new PVector (5,5);
-  vel2 = new PVector (-5,-5);
+  loc = new PVector (mouseX, mouseY);
+  vel = new PVector (5,5);
 }
 
 void draw()
 {
-  background(0);
   println(whenXDoesYouWrong(1,9,-10));
   println(springInMyStep(807.7,0.13,'w'));
   println(springInMyStep(8.32,600,'x'));
@@ -33,7 +27,7 @@ float[] whenXDoesYouWrong(float a, float b, float c)
   return x;
 }
 
-float springInMyStep (float a, float b, char isolate)
+float springInMyStep (float a, float b, char isolate) 
 {
   float result = 0;
   if(isolate == 'w')
@@ -53,36 +47,18 @@ float springInMyStep (float a, float b, char isolate)
 
 void followMrMouse()
 {
-  noStroke();
-  fill(random(255),random(255),random(255));
-  ellipse(loc1.x,loc1.y, diam, diam);
-  ellipse(loc2.x,loc2.y,diam,diam);
-  loc1.add(vel1);
-  loc2.add(vel2);
-  if (loc1.x > mouseX+20)
+  ellipse(loc.x,loc.y, diam, diam);
+  loc.add(vel);
+  if (loc.x > mouseX+20)
   {
-    vel1.x = -abs(vel1.x);    
-  } else if (loc1.x < mouseX-20) {
-    vel1.x = abs(vel1.x);    
+    vel.x = -abs(vel.x);    
+  } else if (loc.x < mouseX-20) {
+    vel.x = abs(vel.x);    
   }
-  if (loc1.y > mouseY+20)
+  if (loc.y > mouseY+20)
   {
-    vel1.y = -abs(vel1.y);
-  } else if (loc1.y < mouseY-20) {
-    vel1.y = abs(vel1.y);
-
-}
-if (loc2.x > mouseX+20)
-  {
-    vel2.x = -abs(vel2.x);    
-  } else if (loc2.x < mouseX-20) {
-    vel2.x = abs(vel2.x);    
-  }
-  if (loc2.y > mouseY+20)
-  {
-    vel2.y = -abs(vel2.y);
-  } else if (loc2.y < mouseY-20) {
-    vel2.y = abs(vel2.y);
-
+    vel.y = -abs(vel.y);
+  } else if (loc.y < mouseY-20) {
+    vel.y = abs(vel.y);
 }
 }
