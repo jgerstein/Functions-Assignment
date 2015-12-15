@@ -2,7 +2,9 @@
 
 ## Examples:
 springInMyStep(807.7,0.13,'w')
+
 springInMyStep(8.32,600,'x')
+
 springInMyStep(10,3.56,'k')
 
 ## Description:
@@ -13,7 +15,9 @@ springInMyStep (value1, value2, character)
 
 ##Parameters: 
 value1      float: first numerical value
+
 value2      float: second numerical value
+
 character   float: the letter corresponding to what variable is being solved for
 
 ##Returns:
