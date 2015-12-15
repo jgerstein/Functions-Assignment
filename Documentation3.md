@@ -1,19 +1,19 @@
-# Name: 
+# Name: sier()
 
 ## Examples:
-Insert examples here.
+sier(5) gives 6-iteration of sierpinsky triangle
 
 ## Description:
-Insert description here
+draws sierpinsky triangle recursively
 
 ## Syntax:
-Demonstrate syntax here
+sier(int k);
 
 ##Parameters: 
-Name and describe parameters here
+k is the number of iterations to go through in making triangle, starting from 0 as one triangle.
 
 ##Returns:
-What type of data does it return?
+Does not return data
 
 ##Other notes:
-Anything else?
+None
