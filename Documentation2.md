@@ -1,19 +1,22 @@
 # Name: 
+grav()
 
 ## Examples:
-Insert examples here.
+grav(25,r1,34,r2) = something
 
 ## Description:
-Insert description here
+gives gravitational force between two objects given their masses and positions
 
 ## Syntax:
-Demonstrate syntax here
+grav(m1,r1,m2,r2);
 
 ##Parameters: 
-Name and describe parameters here
+m1: mass of 1st object
+r1: position vector of 1st object
+m2,r2: mass and position of 2nd object
 
 ##Returns:
-What type of data does it return?
+float
 
 ##Other notes:
-Anything else?
+None
