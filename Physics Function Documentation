@@ -18,9 +18,9 @@ This function uses the equation vf=vo+at to find the final velocity given the ot
 finalvelocity(vo,accel,t);
 
 ##Parameters: 
-vo     Initial Velocity
-accel  Acceleration
-t      time 
+vo float:    Initial Velocity
+accel float: Acceleration
+t float:     Time 
 
 ##Returns:
 float
