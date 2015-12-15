@@ -13,6 +13,5 @@ followMrMouse()
 
 
 ##Returns:
-Does not return data.
 
 ##Other notes:
