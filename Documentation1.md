@@ -1,19 +1,19 @@
-# Name: 
+# Name: frac()
 
 ## Examples:
-Insert examples here.
+frac(PI) = 335/113
 
 ## Description:
-Insert description here
+Takes a float and returns a fractional approximation of it.
 
 ## Syntax:
-Demonstrate syntax here
+frac(float x);
 
 ##Parameters: 
-Name and describe parameters here
+float x: the float you want to approximate
 
 ##Returns:
-What type of data does it return?
+String
 
 ##Other notes:
-Anything else?
+None
