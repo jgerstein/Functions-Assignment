@@ -15,6 +15,6 @@ r     float: radius of the cylinder
 h     float: height of the cylinder
 
 ##Returns:
-result
+float
 
 
