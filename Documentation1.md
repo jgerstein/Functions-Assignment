@@ -7,14 +7,14 @@ whenXDoesYouWrong(1,9,-10)
 Solves for the negative and positive values of x in the equation x = -b + (sqrt(sq(b) - 4*a*c))/2*a given the values a, b, and c.
 
 ## Syntax:
-whenXDoesYouWrong(a, b, c)
+whenXDoesYouWrong(value1, value2, value3)
 
 ##Parameters: 
-a     float: the a value in the quadratic formula
+value1     float: the a value in the quadratic formula
 
-b     float: the b value in the quadratic formula
+value2     float: the b value in the quadratic formula
 
-c     float: the c value in the quadratic formula
+value3     float: the c value in the quadratic formula
 
 ##Returns:
 Returns float for positive and negative values of x.
