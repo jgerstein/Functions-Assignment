@@ -1,0 +1,27 @@
+# Name: lakers()
+
+## Examples:
+void draw() {
+  lakers(); //draw the lakers function
+}
+void lakers() {
+  lakers=loadImage("lakers.jpg"); //load image
+  image(lakers, 0, 0); //image position
+  if (keyPressed) { //when key is pressed
+    tint(random(255), random(255), random(255)); //random tint when key is pressed
+  }
+}
+
+## Description:
+This function will draw an image which is the logo of the Los Angeles Lakers. The Los Angeles Lakers is a NBA team based in Los Angeles. Also, this function allows the user to change the tint of the image by pressing any key.
+
+## Syntax:
+lakers();
+
+##Parameters: 
+None
+
+##Returns:
+void
+
+
