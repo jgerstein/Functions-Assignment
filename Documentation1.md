@@ -1,19 +1,24 @@
 # Name: 
+sphere()
 
 ## Examples:
-Insert examples here.
+noStroke();
+lights();
+translate(58, 48, 0);
+sphere(28);
 
 ## Description:
-Insert description here
-
+	A sphere is a hollow ball made from tessellated triangles
+	
 ## Syntax:
-Demonstrate syntax here
+	sphere(r)
 
 ##Parameters: 
-Name and describe parameters here
+r	float: the radius of the sphere
+
 
 ##Returns:
-What type of data does it return?
+void
 
 ##Other notes:
 Anything else?
