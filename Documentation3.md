@@ -1,19 +1,26 @@
-# Name: 
+# Name: addAcceleration
 
 ## Examples:
-Insert examples here.
+Increase or decrease the speed that the objects move.
 
 ## Description:
-Insert description here
+Add acceleration to the objects by increasing or decreasing the velocity in each frame.
 
 ## Syntax:
-Demonstrate syntax here
+void addAcceleration() {
+  for (int i=0; i<count; i++) {
+    if (a<=1) {
+      vy[i]+=a;
+    } else {
+      vy[i]=1;
+    }
+  }
 
 ##Parameters: 
-Name and describe parameters here
+No parameters
 
 ##Returns:
-What type of data does it return?
+No return.
 
 ##Other notes:
-Anything else?
+In my syntax, there is an if statement that will make sure the acceleration doesn't increase too much.
