@@ -1,3 +1,4 @@
+//declare and initialize variables
 float vf, a;
 int count=25;
 //declare arrays
@@ -11,7 +12,9 @@ float []g= new float[count];
 float []b= new float[count];
 
 void setup() {
+  //draw canvas
   size(500, 500);
+  //initialize arrays
   for (int i=0; i<count; i++) {
     x[i] = random(width);
     y[i] = random(height);
@@ -25,12 +28,14 @@ void setup() {
 }
 
 void draw() {
+  //draw a background
   background(255);
   for (int i=0; i<count; i++) {
     //draw ball
     noStroke();
     fill(r[i],g[i],b[i]);
     ellipse(x[i], y[i], d[i], d[i]);
+    //add velocity
     x[i] += vx[i];
     y[i] += vy[i];
     //bounce ball if it hits walls
@@ -46,7 +51,9 @@ void draw() {
       vy[i] = abs(vy[i]);
     }
   }
+  //initialize variables
   vf=findPermutation(random(0, 1), random(0, 1));
   a=findAcceleration(0, vf, 10);
+  //add acceleration to objects
   addAcceleration();
 }
